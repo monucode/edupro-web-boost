@@ -13,6 +13,13 @@ import Events from "./pages/Events";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
+// Course detail pages
+import VedicMathematics from "./pages/courses/VedicMathematics";
+import RoboticsPro from "./pages/courses/RoboticsPro";
+import AbacusTraining from "./pages/courses/AbacusTraining";
+import MnemonicScience from "./pages/courses/MnemonicScience";
+import PhonicsReading from "./pages/courses/PhonicsReading";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -27,6 +34,11 @@ const App = () => (
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
+            <Route path="/courses/vedic-mathematics" element={<VedicMathematics />} />
+            <Route path="/courses/robotics-pro" element={<RoboticsPro />} />
+            <Route path="/courses/abacus-training" element={<AbacusTraining />} />
+            <Route path="/courses/mnemonic-science" element={<MnemonicScience />} />
+            <Route path="/courses/phonics-reading" element={<PhonicsReading />} />
             <Route path="/branches" element={<Branches />} />
             <Route path="/admissions" element={<Admissions />} />
             <Route path="/events" element={<Events />} />
