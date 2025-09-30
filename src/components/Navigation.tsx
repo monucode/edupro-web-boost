@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Phone, MessageCircle } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import logoImage from "@/assets/hiran-logo.jpeg";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,12 +29,14 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-primary text-primary-foreground font-bold text-lg">
-              H
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img 
+              src={logoImage} 
+              alt="Hiran EduPro Academy Logo" 
+              className="h-12 w-12 object-contain"
+            />
             <div className="hidden sm:block">
-              <h1 className="text-xl font-bold text-primary">Hiran EduPro</h1>
+              <h1 className="text-xl font-bold text-primary">Hiran EduPro Academy</h1>
               <p className="text-xs text-muted-foreground">Learning Beyond Limits</p>
             </div>
           </Link>
