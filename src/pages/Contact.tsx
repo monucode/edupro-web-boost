@@ -34,7 +34,7 @@ const Contact = () => {
     }
 
     // WhatsApp integration
-    const whatsappNumber = "+919999999999";
+    const whatsappNumber = "+918208368355";
     const message = `
 Contact Form Submission - Hiran EduPro Academy
 
@@ -68,7 +68,7 @@ Message: ${formData.message}
     {
       name: "Govind Nagar Branch",
       address: "Plot No. 123, Govind Nagar, Near Central School, Maharashtra 401203",
-      phone: "+91-9999999998",
+      phone: "+91-8208368355",
       email: "govindnagar@hiraneduproacademy.com",
       timings: "Monday to Saturday: 9:00 AM - 7:00 PM",
       incharge: "Mrs. Priya Sharma",
@@ -113,11 +113,11 @@ Message: ${formData.message}
             </h1>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
               Have questions about our courses, admission process, or want to schedule a visit? 
-              Our friendly team is ready to assist you at any of our three convenient locations.
+              Our friendly team is ready to assist you at any of our convenient locations.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <a href="tel:+919999999999">
+              <a href="tel:+918208368355">
                 <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-secondary-foreground gap-2">
                   <Phone className="h-5 w-5" />
                   Call Now
@@ -125,7 +125,7 @@ Message: ${formData.message}
               </a>
               
               <a
-                href="https://wa.me/+919999999999?text=Hi! I have a question about Hiran EduPro Academy."
+                href="https://wa.me/+918208368355?text=Hi! I have a question about Hiran EduPro Academy."
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -257,8 +257,8 @@ Message: ${formData.message}
                     </div>
                     <div>
                       <div className="font-semibold">Main Office</div>
-                      <a href="tel:+919999999999" className="text-white/90 hover:text-white">
-                        +91-9999999999
+                      <a href="tel:+918208368355" className="text-white/90 hover:text-white">
+                        +91-8208368355
                       </a>
                     </div>
                   </div>
@@ -289,7 +289,7 @@ Message: ${formData.message}
                     <div className="text-center">
                       <div className="font-semibold mb-2">Need Immediate Help?</div>
                       <a
-                        href="https://wa.me/+919999999999?text=I need immediate assistance regarding Hiran EduPro Academy"
+                        href="https://wa.me/+918208368355?text=I need immediate assistance regarding Hiran EduPro Academy"
                         target="_blank"
                         rel="noopener noreferrer"
                       >

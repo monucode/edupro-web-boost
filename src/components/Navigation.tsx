@@ -21,7 +21,7 @@ const Navigation = () => {
 
   const isActive = (path: string) => location.pathname === path;
 
-  const whatsappNumber = "+919999999999"; // Replace with actual WhatsApp number
+  const whatsappNumber = "+918208368355";
   const whatsappMessage = "Hi! I'm interested in courses at Hiran EduPro Academy. Please provide more information.";
 
   return (
@@ -42,7 +42,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden lg:flex items-center space-x-1">
             {navItems.map((item) => (
               <Link key={item.path} to={item.path}>
                 <Button
@@ -69,7 +69,7 @@ const Navigation = () => {
               </Button>
             </a>
             
-            <a href="tel:+919999999999" className="hidden sm:flex">
+            <a href="tel:+918208368355" className="hidden sm:flex">
               <Button variant="outline" size="sm" className="gap-2">
                 <Phone className="h-4 w-4" />
                 Call
@@ -84,7 +84,7 @@ const Navigation = () => {
 
             {/* Mobile Menu */}
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild className="md:hidden">
+              <SheetTrigger asChild className="lg:hidden">
                 <Button variant="outline" size="sm">
                   <Menu className="h-4 w-4" />
                 </Button>
@@ -117,7 +117,7 @@ const Navigation = () => {
                         WhatsApp Us
                       </Button>
                     </a>
-                    <a href="tel:+919999999999">
+                    <a href="tel:+918208368355">
                       <Button variant="outline" className="w-full gap-2">
                         <Phone className="h-4 w-4" />
                         Call Now

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-education.jpg";
 
 const Hero = () => {
-  const whatsappNumber = "+919999999999";
+  const whatsappNumber = "+918208368355";
   const whatsappMessage = "Hi! I'm interested in learning more about courses at Hiran EduPro Academy.";
 
   return (
@@ -38,7 +38,7 @@ const Hero = () => {
             <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed max-w-lg">
               Unlock your child's potential with our innovative courses in Vedic Maths, 
               Robotics Pro, Abacus, Mnemonic Science, and Phonics. Join thousands of 
-              successful students across our 3 branches.
+              successful students across our 2 branches.
             </p>
             
             <div className="inline-flex items-center space-x-2 bg-secondary/20 backdrop-blur-sm px-4 py-2 rounded-full">
@@ -65,7 +65,7 @@ const Hero = () => {
               <div className="flex items-center space-x-2">
                 <Award className="h-5 w-5 text-secondary" />
                 <div>
-                  <div className="text-2xl font-bold">3</div>
+                  <div className="text-2xl font-bold">2</div>
                   <div className="text-sm text-white/80">Branches</div>
                 </div>
               </div>

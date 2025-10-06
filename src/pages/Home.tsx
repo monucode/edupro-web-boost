@@ -67,7 +67,7 @@ const Home = () => {
     {
       name: "Govind Nagar Branch",
       address: "123 Govind Nagar, Near Central School, Maharashtra",
-      phone: "+91-9999999998",
+      phone: "+91-8208368355",
       timings: "Mon-Sat: 9 AM - 7 PM",
       studentsCount: "200+",
       features: ["Modern classrooms", "Robotics lab", "Library"],
