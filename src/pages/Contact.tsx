@@ -85,16 +85,6 @@ Message: ${formData.message}
       incharge: "Mr. Rajesh Patel",
       designation: "Branch Coordinator",
       specialties: ["Abacus Training", "Mnemonic Science", "Phonics"]
-    },
-    {
-      name: "Bafna Bazar Branch",
-      address: "Building No. 789, Bafna Bazar, Near Market Square, Maharashtra 422001",
-      phone: "+91-9999999996", 
-      email: "bafnabazar@hiraneduproacademy.com",
-      timings: "Monday to Saturday: 9:00 AM - 6:00 PM",
-      incharge: "Ms. Kavita Desai",
-      designation: "Academic Coordinator",
-      specialties: ["All Courses", "Special Programs", "Competitions"]
     }
   ];
 
@@ -212,7 +202,6 @@ Message: ${formData.message}
                         <SelectContent>
                           <SelectItem value="govind-nagar">Govind Nagar</SelectItem>
                           <SelectItem value="manmad">Manmad</SelectItem>
-                          <SelectItem value="bafna-bazar">Bafna Bazar</SelectItem>
                           <SelectItem value="any">Any Branch</SelectItem>
                         </SelectContent>
                       </Select>
@@ -338,7 +327,7 @@ Message: ${formData.message}
                     </div>
                     <div className="flex items-center space-x-2">
                       <Building className="h-4 w-4 text-primary" />
-                      <span className="text-sm">All 3 branches open for visits</span>
+                      <span className="text-sm">Both branches open for visits</span>
                     </div>
                   </div>
                   
@@ -367,7 +356,7 @@ Message: ${formData.message}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {branches.map((branch, index) => (
               <Card key={index} className="card-enhanced">
                 <CardHeader>

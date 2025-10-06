@@ -82,15 +82,6 @@ const Home = () => {
       studentsCount: "150+",
       features: ["Smart boards", "Computer lab", "Activity room"],
       slug: "manmad"
-    },
-    {
-      name: "Bafna Bazar Branch",
-      address: "789 Bafna Bazar, Near Market, Maharashtra", 
-      phone: "+91-9999999996",
-      timings: "Mon-Sat: 9 AM - 6 PM",
-      studentsCount: "180+",
-      features: ["Interactive boards", "Science lab", "Reading corner"],
-      slug: "bafna-bazar"
     }
   ];
 
@@ -216,14 +207,14 @@ const Home = () => {
               Our Locations
             </Badge>
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              3 Convenient Branches
+              2 Convenient Branches
             </h2>
             <p className="text-xl text-muted-foreground">
               Visit any of our well-equipped branches across Maharashtra
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
             {branches.map((branch, index) => (
               <BranchCard key={index} {...branch} />
             ))}

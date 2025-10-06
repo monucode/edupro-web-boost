@@ -47,26 +47,6 @@ const Branches = () => {
       established: "2022",
       floorArea: "1800 sq ft",
       specialPrograms: ["Abacus Competition Prep", "Memory Training Workshop"]
-    },
-    {
-      name: "Bafna Bazar Branch",
-      address: "Building No. 789, Bafna Bazar, Near Market Square, Maharashtra 422001", 
-      phone: "+91-9999999996",
-      timings: "Monday to Saturday: 9:00 AM - 6:00 PM",
-      studentsCount: "180+",
-      features: [
-        "Digital interactive boards",
-        "Modern science laboratory",
-        "Comfortable reading corner",
-        "Audio-visual learning setup",
-        "Student exhibition area",
-        "Safe and secure premises"
-      ],
-      slug: "bafna-bazar",
-      description: "Growing branch with modern amenities in the heart of the commercial area.",
-      established: "2022", 
-      floorArea: "2000 sq ft",
-      specialPrograms: ["Phonics Excellence Program", "Mnemonic Mastery Course"]
     }
   ];
 
@@ -103,7 +83,7 @@ const Branches = () => {
               Our Locations
             </Badge>
             <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
-              3 Convenient Branches Across Maharashtra
+              2 Convenient Branches Across Maharashtra
             </h1>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               Visit any of our well-equipped branches for the same exceptional learning experience. 
@@ -112,15 +92,15 @@ const Branches = () => {
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">3</div>
+                <div className="text-4xl font-bold text-primary mb-2">2</div>
                 <div className="text-muted-foreground">Strategic Locations</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-secondary mb-2">530+</div>
+                <div className="text-4xl font-bold text-secondary mb-2">350+</div>
                 <div className="text-muted-foreground">Total Students</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-success mb-2">6000+</div>
+                <div className="text-4xl font-bold text-success mb-2">4300+</div>
                 <div className="text-muted-foreground">Sq Ft Learning Space</div>
               </div>
             </div>
@@ -131,7 +111,7 @@ const Branches = () => {
       {/* Branches Grid */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto">
             {branches.map((branch, index) => (
               <BranchCard key={index} {...branch} />
             ))}

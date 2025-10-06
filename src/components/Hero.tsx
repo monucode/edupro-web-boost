@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Star, Users, BookOpen, Award } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-education.jpg";
@@ -26,19 +27,24 @@ const Hero = () => {
           <div className="text-white space-y-6">
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
               <Star className="h-4 w-4 text-secondary" />
-              <span className="text-sm font-medium">Excellence in Education Since 2020</span>
+              <span className="text-sm font-medium">Nurturing minds, Shaping futures</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Learning
-              <span className="block text-secondary">Beyond Limits</span>
+              <span className="block text-secondary mt-2">Beyond Limits</span>
             </h1>
 
-            <p className="text-lg md:text-xl text-white/90 leading-relaxed max-w-lg">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed max-w-lg">
               Unlock your child's potential with our innovative courses in Vedic Maths, 
               Robotics Pro, Abacus, Mnemonic Science, and Phonics. Join thousands of 
               successful students across our 3 branches.
             </p>
+            
+            <div className="inline-flex items-center space-x-2 bg-secondary/20 backdrop-blur-sm px-4 py-2 rounded-full">
+              <Badge className="bg-secondary text-secondary-foreground">Online & Offline</Badge>
+              <span className="text-sm font-medium">Classes Available</span>
+            </div>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-8 py-6">
@@ -66,9 +72,9 @@ const Hero = () => {
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <Link to="/admissions" className="w-full sm:w-auto">
-                <Button size="lg" className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground gap-2 font-semibold">
+                <Button size="lg" className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground gap-2 font-semibold shadow-lg">
                   Enroll Now
                   <ArrowRight className="h-5 w-5" />
                 </Button>
@@ -80,7 +86,7 @@ const Hero = () => {
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
               >
-                <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm font-semibold">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-white bg-white/10 text-white hover:bg-white/20 backdrop-blur-sm font-semibold shadow-lg">
                   WhatsApp Inquiry
                 </Button>
               </a>

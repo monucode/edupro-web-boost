@@ -24,6 +24,10 @@ import AbacusTraining from "./pages/courses/AbacusTraining";
 import MnemonicScience from "./pages/courses/MnemonicScience";
 import PhonicsReading from "./pages/courses/PhonicsReading";
 
+// Branch detail pages
+import GovindNagar from "./pages/branches/GovindNagar";
+import Manmad from "./pages/branches/Manmad";
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -46,6 +50,8 @@ const App = () => (
                 <Route path="/courses/mnemonic-science" element={<MnemonicScience />} />
                 <Route path="/courses/phonics-reading" element={<PhonicsReading />} />
                 <Route path="/branches" element={<Branches />} />
+                <Route path="/branches/govind-nagar" element={<GovindNagar />} />
+                <Route path="/branches/manmad" element={<Manmad />} />
                 <Route path="/admissions" element={<Admissions />} />
                 <Route path="/events" element={<Events />} />
                 <Route path="/contact" element={<Contact />} />
