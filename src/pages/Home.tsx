@@ -20,8 +20,8 @@ const Home = () => {
       title: "Vedic Mathematics",
       description: "Ancient calculation techniques that make math fun and fast. Students learn to solve complex problems mentally in seconds.",
       image: vedicMathsImg,
-      ageGroup: "Age 8-16",
-      duration: "6 months",
+      ageGroup: "Age 7+",
+      duration: "4 months",
       students: "200+",
       rating: "4.9",
       highlights: [
@@ -35,8 +35,8 @@ const Home = () => {
       title: "Robotics Pro",
       description: "Hands-on robotics and coding experience for future engineers. Learn programming, electronics, and problem-solving.",
       image: roboticsImg,
-      ageGroup: "Age 10-18",
-      duration: "8 months",
+      ageGroup: "Age 7+",
+      duration: "4 months",
       students: "150+",
       rating: "4.8",
       highlights: [
@@ -50,8 +50,8 @@ const Home = () => {
       title: "Abacus Training",
       description: "Traditional counting method for enhanced brain development and mathematical skills through visual and tactile learning.",
       image: abacusImg,
-      ageGroup: "Age 5-14",
-      duration: "12 months",
+      ageGroup: "Age 7-12",
+      duration: "4 months",
       students: "300+",
       rating: "4.9",
       highlights: [
