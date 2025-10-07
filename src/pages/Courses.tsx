@@ -18,8 +18,8 @@ const Courses = () => {
       title: "Vedic Mathematics",
       description: "Master ancient calculation techniques that make mathematics fun, fast, and fascinating. Learn to solve complex problems mentally in seconds using time-tested Vedic methods.",
       image: vedicMathsImg,
-      ageGroup: "Age 8-16",
-      duration: "6 months",
+      ageGroup: "Age 7+",
+      duration: "4 months",
       students: "200+",
       rating: "4.9",
       highlights: [
@@ -35,8 +35,8 @@ const Courses = () => {
       title: "Robotics Pro",
       description: "Hands-on robotics and coding experience designed for future engineers. Build, program, and compete with cutting-edge robotics technology.",
       image: roboticsImg,
-      ageGroup: "Age 10-18",
-      duration: "8 months",
+      ageGroup: "Age 7+",
+      duration: "4 months",
       students: "150+",
       rating: "4.8",
       highlights: [
@@ -52,8 +52,8 @@ const Courses = () => {
       title: "Abacus Training",
       description: "Traditional counting method enhanced with modern techniques for comprehensive brain development and mathematical excellence through visual and tactile learning.",
       image: abacusImg,
-      ageGroup: "Age 5-14",
-      duration: "12 months",
+      ageGroup: "Age 7-12",
+      duration: "4 months",
       students: "300+",
       rating: "4.9",
       highlights: [
@@ -69,8 +69,8 @@ const Courses = () => {
       title: "Mnemonic Science",
       description: "Revolutionary memory techniques and learning strategies based on cognitive science. Transform how your child learns and remembers information.",
       image: mnemonicImg,
-      ageGroup: "Age 7-17",
-      duration: "4 months",
+      ageGroup: "Age 4+",
+      duration: "6 months",
       students: "120+",
       rating: "4.7",
       highlights: [

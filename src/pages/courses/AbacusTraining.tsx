@@ -16,11 +16,14 @@ const AbacusTraining = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 5-14 Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">Age 7-12 Years</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Abacus Training
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
+                ₹4000 (includes kit & study material) | 2 hours/day | Saturday & Sunday
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Traditional counting method enhanced with modern techniques for comprehensive brain development 
                 and mathematical excellence through visual and tactile learning.
               </p>
@@ -28,7 +31,7 @@ const AbacusTraining = () => {
               <div className="flex items-center space-x-6 mb-8 text-sm">
                 <div className="flex items-center space-x-2">
                   <Clock className="h-5 w-5 text-primary" />
-                  <span>12 months duration</span>
+                  <span>4 months duration</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-primary" />
@@ -210,7 +213,7 @@ const AbacusTraining = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground mb-4">Learning Levels</h2>
-            <p className="text-xl text-muted-foreground">Systematic progression through 12 months of structured learning</p>
+            <p className="text-xl text-muted-foreground">Systematic progression through 4 months of structured learning</p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">

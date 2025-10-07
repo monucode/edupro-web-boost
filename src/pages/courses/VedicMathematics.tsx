@@ -16,11 +16,14 @@ const VedicMathematics = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 8-16 Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">Age 7+ Years</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Vedic Mathematics
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
+                ₹4000 (includes study material) | 2 hours/day | Saturday & Sunday
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Master ancient calculation techniques that make mathematics fun, fast, and fascinating. 
                 Learn to solve complex problems mentally in seconds using time-tested Vedic methods.
               </p>
@@ -28,7 +31,7 @@ const VedicMathematics = () => {
               <div className="flex items-center space-x-6 mb-8 text-sm">
                 <div className="flex items-center space-x-2">
                   <Clock className="h-5 w-5 text-primary" />
-                  <span>6 months duration</span>
+                  <span>4 months duration</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-primary" />
@@ -202,10 +205,10 @@ const VedicMathematics = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground mb-4">Course Structure</h2>
-            <p className="text-xl text-muted-foreground">Comprehensive 6-month program with progressive learning modules</p>
+            <p className="text-xl text-muted-foreground">Comprehensive 4-month program with progressive learning modules</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <Card className="card-enhanced p-6">
               <CardHeader>
                 <Badge className="w-fit">Month 1-2</Badge>
@@ -217,6 +220,8 @@ const VedicMathematics = () => {
                   <li>• Basic Sutras and principles</li>
                   <li>• Simple addition and subtraction</li>
                   <li>• Digit sum method</li>
+                  <li>• Advanced multiplication methods</li>
+                  <li>• Division shortcuts</li>
                 </ul>
               </CardContent>
             </Card>
@@ -224,25 +229,12 @@ const VedicMathematics = () => {
             <Card className="card-enhanced p-6">
               <CardHeader>
                 <Badge className="w-fit">Month 3-4</Badge>
-                <CardTitle>Intermediate Techniques</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Advanced multiplication methods</li>
-                  <li>• Division shortcuts</li>
-                  <li>• Percentage calculations</li>
-                  <li>• Fraction operations</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-enhanced p-6">
-              <CardHeader>
-                <Badge className="w-fit">Month 5-6</Badge>
                 <CardTitle>Advanced Applications</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Percentage calculations</li>
+                  <li>• Fraction operations</li>
                   <li>• Square and cube calculations</li>
                   <li>• Algebraic operations</li>
                   <li>• Competition problem solving</li>

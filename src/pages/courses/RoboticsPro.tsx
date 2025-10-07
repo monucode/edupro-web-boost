@@ -16,11 +16,14 @@ const RoboticsPro = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 10-18 Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">Age 7+ Years</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Robotics Pro
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
+                ₹4000 (includes kit & study material) | 2 hours/day | Saturday & Sunday
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Hands-on robotics and coding experience designed for future engineers. 
                 Build, program, and compete with cutting-edge robotics technology.
               </p>
@@ -28,7 +31,7 @@ const RoboticsPro = () => {
               <div className="flex items-center space-x-6 mb-8 text-sm">
                 <div className="flex items-center space-x-2">
                   <Clock className="h-5 w-5 text-primary" />
-                  <span>8 months duration</span>
+                  <span>4 months duration</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-primary" />
@@ -209,15 +212,15 @@ const RoboticsPro = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-foreground mb-4">8-Month Learning Journey</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">4-Month Learning Journey</h2>
             <p className="text-xl text-muted-foreground">Progressive curriculum from basics to advanced robotics</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <Card className="card-enhanced p-6">
               <CardHeader>
                 <Badge className="w-fit">Month 1-2</Badge>
-                <CardTitle>Fundamentals</CardTitle>
+                <CardTitle>Fundamentals & Building</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
@@ -225,6 +228,8 @@ const RoboticsPro = () => {
                   <li>• Basic electronics</li>
                   <li>• Arduino programming basics</li>
                   <li>• Simple LED and sensor projects</li>
+                  <li>• Motor control and movement</li>
+                  <li>• Chassis design and assembly</li>
                 </ul>
               </CardContent>
             </Card>
@@ -232,44 +237,16 @@ const RoboticsPro = () => {
             <Card className="card-enhanced p-6">
               <CardHeader>
                 <Badge className="w-fit">Month 3-4</Badge>
-                <CardTitle>Building & Motors</CardTitle>
+                <CardTitle>Advanced & Projects</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Motor control and movement</li>
-                  <li>• Chassis design and assembly</li>
-                  <li>• Sensor integration</li>
-                  <li>• Basic autonomous robots</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-enhanced p-6">
-              <CardHeader>
-                <Badge className="w-fit">Month 5-6</Badge>
-                <CardTitle>Advanced Programming</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Raspberry Pi introduction</li>
+                  <li>• Advanced sensor integration</li>
                   <li>• Python programming</li>
                   <li>• Computer vision basics</li>
                   <li>• Wireless communication</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-enhanced p-6">
-              <CardHeader>
-                <Badge className="w-fit">Month 7-8</Badge>
-                <CardTitle>Projects & Competition</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Final project development</li>
                   <li>• Competition preparation</li>
-                  <li>• AI and ML applications</li>
-                  <li>• Presentation skills</li>
                 </ul>
               </CardContent>
             </Card>

@@ -16,11 +16,14 @@ const MnemonicScience = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 7-17 Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">Age 4+ Years</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Mnemonic Science
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
+                ₹6000 (includes study material) | 2 hours/day | Sunday only
+              </p>
+              <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 Revolutionary memory techniques and learning strategies based on cognitive science. 
                 Transform how your child learns and remembers information.
               </p>
@@ -28,7 +31,7 @@ const MnemonicScience = () => {
               <div className="flex items-center space-x-6 mb-8 text-sm">
                 <div className="flex items-center space-x-2">
                   <Clock className="h-5 w-5 text-primary" />
-                  <span>4 months duration</span>
+                  <span>6 months duration</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-primary" />
@@ -209,14 +212,14 @@ const MnemonicScience = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-foreground mb-4">4-Month Intensive Program</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">6-Month Intensive Program</h2>
             <p className="text-xl text-muted-foreground">Comprehensive memory training modules for maximum effectiveness</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <Card className="card-enhanced p-6">
               <CardHeader>
-                <Badge className="w-fit">Month 1</Badge>
+                <Badge className="w-fit">Month 1-2</Badge>
                 <CardTitle>Memory Foundations</CardTitle>
               </CardHeader>
               <CardContent>
@@ -225,32 +228,21 @@ const MnemonicScience = () => {
                   <li>• Basic visualization techniques</li>
                   <li>• Simple association methods</li>
                   <li>• Memory assessment and goals</li>
+                  <li>• Memory palace construction</li>
+                  <li>• Chain and story methods</li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card className="card-enhanced p-6">
               <CardHeader>
-                <Badge className="w-fit">Month 2</Badge>
+                <Badge className="w-fit">Month 3-4</Badge>
                 <CardTitle>Advanced Techniques</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Memory palace construction</li>
-                  <li>• Chain and story methods</li>
                   <li>• Number and name memorization</li>
                   <li>• Speed reading introduction</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-enhanced p-6">
-              <CardHeader>
-                <Badge className="w-fit">Month 3</Badge>
-                <CardTitle>Subject Applications</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• History and geography techniques</li>
                   <li>• Science concepts memorization</li>
                   <li>• Language learning methods</li>
@@ -261,7 +253,7 @@ const MnemonicScience = () => {
 
             <Card className="card-enhanced p-6">
               <CardHeader>
-                <Badge className="w-fit">Month 4</Badge>
+                <Badge className="w-fit">Month 5-6</Badge>
                 <CardTitle>Mastery & Practice</CardTitle>
               </CardHeader>
               <CardContent>
@@ -270,6 +262,8 @@ const MnemonicScience = () => {
                   <li>• Long-term retention methods</li>
                   <li>• Memory competition training</li>
                   <li>• Personal system development</li>
+                  <li>• Advanced speed reading</li>
+                  <li>• Real-world applications</li>
                 </ul>
               </CardContent>
             </Card>
