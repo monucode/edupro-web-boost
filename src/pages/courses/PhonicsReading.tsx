@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import phonicsImg from "@/assets/phonics-course.jpg";
 
 const PhonicsReading = () => {
-  const whatsappNumber = "+919999999999";
-  const whatsappMessage = "Hi! I'd like to know more about the Phonics & Reading course at Hiran EduPro Academy.";
+  const whatsappNumber = "+918208368355";
+  const whatsappMessage = "Hi! I'd like to know more about the Phonics course at Hiran EduPro Academy.";
 
   return (
     <main className="pt-16">
@@ -16,9 +16,9 @@ const PhonicsReading = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 4-10 Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">Age 4-7 Years</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
-                Phonics & Reading
+                Phonics
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
                 Comprehensive phonics program that builds strong reading foundations through systematic 
@@ -28,7 +28,7 @@ const PhonicsReading = () => {
               <div className="flex items-center space-x-6 mb-8 text-sm">
                 <div className="flex items-center space-x-2">
                   <Clock className="h-5 w-5 text-primary" />
-                  <span>10 months duration</span>
+                  <span>4 months duration</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Users className="h-5 w-5 text-primary" />
@@ -210,13 +210,13 @@ const PhonicsReading = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-foreground mb-4">Learning Journey</h2>
-            <p className="text-xl text-muted-foreground">10-month comprehensive program building reading excellence step by step</p>
+            <p className="text-xl text-muted-foreground">4-month comprehensive program building reading excellence step by step</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <Card className="card-enhanced p-6">
               <CardHeader>
-                <Badge className="w-fit">Phase 1 (Months 1-3)</Badge>
+                <Badge className="w-fit">Phase 1 (Months 1-2)</Badge>
                 <CardTitle>Sound Foundations</CardTitle>
               </CardHeader>
               <CardContent>
@@ -225,36 +225,23 @@ const PhonicsReading = () => {
                   <li>• Basic phonetic patterns</li>
                   <li>• Simple CVC words</li>
                   <li>• Listening and speaking activities</li>
+                  <li>• Blending and segmenting basics</li>
                 </ul>
               </CardContent>
             </Card>
 
             <Card className="card-enhanced p-6">
               <CardHeader>
-                <Badge className="w-fit">Phase 2 (Months 4-6)</Badge>
-                <CardTitle>Reading Skills</CardTitle>
+                <Badge className="w-fit">Phase 2 (Months 3-4)</Badge>
+                <CardTitle>Reading Fluency</CardTitle>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Blending and segmenting</li>
+                  <li>• Advanced blending and segmenting</li>
                   <li>• Sight word recognition</li>
                   <li>• Simple sentence reading</li>
                   <li>• Comprehension activities</li>
-                </ul>
-              </CardContent>
-            </Card>
-
-            <Card className="card-enhanced p-6">
-              <CardHeader>
-                <Badge className="w-fit">Phase 3 (Months 7-10)</Badge>
-                <CardTitle>Fluency & Expression</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 text-sm text-muted-foreground">
                   <li>• Fluent reading practice</li>
-                  <li>• Story comprehension</li>
-                  <li>• Creative writing introduction</li>
-                  <li>• Public speaking confidence</li>
                 </ul>
               </CardContent>
             </Card>

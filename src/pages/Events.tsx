@@ -7,11 +7,23 @@ import { Link } from "react-router-dom";
 const Events = () => {
   const upcomingEvents = [
     {
+      title: "National Competition Summer",
+      date: "June 2025",
+      time: "9:00 AM - 5:00 PM",
+      venue: "To be announced",
+      description: "National level competition showcasing talent from across the country in various academic disciplines.",
+      category: "Competition",
+      participants: "100+ students",
+      ageGroup: "All ages",
+      registration: "Opening soon",
+      highlights: ["Multi-category competitions", "National recognition", "Grand prizes", "Networking opportunities"]
+    },
+    {
       title: "Inter-Branch Vedic Maths Championship",
       date: "15th December 2024",
       time: "10:00 AM - 4:00 PM",
       venue: "Govind Nagar Branch",
-      description: "Annual mathematics competition featuring students from all three branches competing in Vedic calculation challenges.",
+      description: "Annual mathematics competition featuring students from all branches competing in Vedic calculation challenges.",
       category: "Competition",
       participants: "50+ students",
       ageGroup: "8-16 years",
@@ -43,14 +55,26 @@ const Events = () => {
       highlights: ["Memory technique demonstrations", "Study tips for parents", "Interactive activities", "Q&A session"]
     },
     {
+      title: "Regional Abacus Competition",
+      date: "November 2024",
+      time: "9:00 AM - 3:00 PM", 
+      venue: "Govind Nagar Branch",
+      description: "Regional level abacus competition showcasing speed calculation and mental math skills.",
+      category: "Competition",
+      participants: "60+ students",
+      ageGroup: "7-12 years",
+      registration: "Completed",
+      highlights: ["Regional recognition", "Speed calculation rounds", "Mental math challenges", "Trophy and medals ceremony"]
+    },
+    {
       title: "Abacus Speed Championship",
       date: "12th January 2025",
       time: "9:00 AM - 12:00 PM", 
-      venue: "Bafna Bazar Branch",
+      venue: "Govind Nagar Branch",
       description: "High-speed mental calculation competition using abacus techniques with participants from multiple academies.",
       category: "Competition",
       participants: "40+ students",
-      ageGroup: "5-14 years",
+      ageGroup: "7-12 years",
       registration: "Open to all levels",
       highlights: ["Multi-level competitions", "Speed calculation rounds", "Mental math challenges", "Trophy ceremony"]
     }
@@ -58,25 +82,36 @@ const Events = () => {
 
   const pastEvents = [
     {
+      title: "Regional Abacus Competition",
+      date: "November 2024",
+      description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills.",
+      images: 0,
+      participants: "60+ students",
+      hasGallery: true
+    },
+    {
       title: "Annual Day Celebration 2024",
       date: "March 2024",
       description: "Grand celebration showcasing student achievements, cultural performances, and academic excellence awards.",
       images: 4,
-      participants: "200+ families"
+      participants: "200+ families",
+      hasGallery: false
     },
     {
       title: "Science & Technology Fair",
       date: "February 2024", 
       description: "Student-led science exhibition featuring innovative projects and technological innovations.",
       images: 6,
-      participants: "150+ projects"
+      participants: "150+ projects",
+      hasGallery: false
     },
     {
       title: "Parent-Teacher Conference", 
       date: "January 2024",
       description: "Comprehensive academic review sessions with personalized feedback and development planning.",
       images: 3,
-      participants: "300+ parents"
+      participants: "300+ parents",
+      hasGallery: false
     }
   ];
 
@@ -247,7 +282,7 @@ const Events = () => {
                       </Button>
                       
                       <a
-                        href={`https://wa.me/+919999999999?text=${encodeURIComponent(`I want to register for: ${event.title}`)}`}
+                        href={`https://wa.me/+918208368355?text=${encodeURIComponent(`I want to register for: ${event.title}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -283,8 +318,18 @@ const Events = () => {
                 <CardHeader>
                   <div className="w-full h-48 bg-gradient-subtle rounded-lg flex items-center justify-center mb-4">
                     <div className="text-center">
-                      <BookOpen className="h-12 w-12 text-primary mx-auto mb-2" />
-                      <div className="text-sm text-muted-foreground">{event.images} Photos Available</div>
+                      {event.hasGallery ? (
+                        <>
+                          <BookOpen className="h-12 w-12 text-primary mx-auto mb-2" />
+                          <div className="text-sm text-muted-foreground">Gallery Available</div>
+                          <div className="text-xs text-muted-foreground mt-1">Upload images coming soon</div>
+                        </>
+                      ) : (
+                        <>
+                          <BookOpen className="h-12 w-12 text-primary mx-auto mb-2" />
+                          <div className="text-sm text-muted-foreground">{event.images} Photos Available</div>
+                        </>
+                      )}
                     </div>
                   </div>
                   <CardTitle className="text-xl">{event.title}</CardTitle>
@@ -297,10 +342,16 @@ const Events = () => {
                   <p className="text-muted-foreground mb-4">{event.description}</p>
                   <div className="flex items-center justify-between">
                     <Badge variant="outline">{event.participants}</Badge>
-                    <Button variant="ghost" size="sm" className="gap-2">
-                      View Gallery
-                      <ArrowRight className="h-3 w-3" />
-                    </Button>
+                    {event.hasGallery ? (
+                      <Button variant="ghost" size="sm" className="gap-2" disabled>
+                        Gallery Coming Soon
+                      </Button>
+                    ) : (
+                      <Button variant="ghost" size="sm" className="gap-2">
+                        View Gallery
+                        <ArrowRight className="h-3 w-3" />
+                      </Button>
+                    )}
                   </div>
                 </CardContent>
               </Card>
@@ -328,7 +379,7 @@ const Events = () => {
             </Link>
             
             <a
-              href="https://wa.me/+919999999999?text=I want to stay updated about Hiran EduPro Academy events"
+              href="https://wa.me/+918208368355?text=I want to stay updated about Hiran EduPro Academy events"
               target="_blank"
               rel="noopener noreferrer"
             >

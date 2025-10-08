@@ -4,7 +4,7 @@ import logoImage from "@/assets/hiran-logo.jpeg";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const whatsappNumber = "+919999999999";
+  const whatsappNumber = "+918208368355";
 
   return (
     <footer className="bg-muted/30 border-t">
@@ -93,7 +93,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/courses/robotics-pro" className="text-muted-foreground hover:text-primary transition-colors">
-                  Robotics Pro
+                  Robotics
                 </Link>
               </li>
               <li>
@@ -108,7 +108,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/courses/phonics-reading" className="text-muted-foreground hover:text-primary transition-colors">
-                  Phonics & Reading
+                  Phonics
                 </Link>
               </li>
             </ul>
@@ -128,8 +128,8 @@ const Footer = () => {
               
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-primary" />
-                <a href="tel:+919999999999" className="text-muted-foreground hover:text-primary transition-colors">
-                  +91 99999 99999
+                <a href="tel:+918208368355" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 82083 68355
                 </a>
               </div>
               

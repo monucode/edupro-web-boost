@@ -39,32 +39,25 @@ const About = () => {
 
   const faculty = [
     {
-      name: "Dr. Hiran Sharma",
+      name: "Mrs. Harshada Hiran",
       role: "Founder & Principal",
-      qualification: "M.Ed, PhD in Educational Psychology",
-      experience: "15+ years in education",
-      specialization: "Vedic Mathematics & Learning Psychology"
+      qualification: "",
+      experience: "7+ years in education",
+      specialization: "Mnemonics, Abacus, Phonics, Vedic Maths"
     },
     {
-      name: "Prof. Anjali Patel",
-      role: "Head of Robotics Department",
-      qualification: "B.Tech in Electronics, M.Tech in Robotics",
-      experience: "10+ years in STEM education",
-      specialization: "Robotics & Programming"
+      name: "Tr. Renuka Pawar",
+      role: "Trainer",
+      qualification: "",
+      experience: "",
+      specialization: "Abacus, Robotics, Vedic Maths"
     },
     {
-      name: "Mrs. Kavita Desai",
-      role: "Senior Abacus Trainer",
-      qualification: "Certified Abacus Master Trainer",
-      experience: "12+ years in Abacus training",
-      specialization: "Mental Math & Brain Development"
-    },
-    {
-      name: "Mr. Rohan Gupta",
-      role: "Mnemonic Science Expert",
-      qualification: "M.A. in Psychology, Memory Training Certification",
-      experience: "8+ years in memory training",
-      specialization: "Memory Techniques & Learning Strategies"
+      name: "Tr. Deepali Parakh",
+      role: "Trainer",
+      qualification: "",
+      experience: "",
+      specialization: "Abacus, Robotics, Vedic Maths"
     }
   ];
 
@@ -240,8 +233,8 @@ const About = () => {
                   <Badge className="mb-3 bg-secondary/10 text-secondary">{member.role}</Badge>
                   
                   <div className="text-sm text-muted-foreground space-y-1">
-                    <p><strong>Qualification:</strong> {member.qualification}</p>
-                    <p><strong>Experience:</strong> {member.experience}</p>
+                    {member.qualification && <p><strong>Qualification:</strong> {member.qualification}</p>}
+                    {member.experience && <p><strong>Experience:</strong> {member.experience}</p>}
                     <p><strong>Specialization:</strong> {member.specialization}</p>
                   </div>
                 </CardContent>

@@ -32,7 +32,7 @@ const Courses = () => {
       slug: "vedic-mathematics"
     },
     {
-      title: "Robotics Pro",
+      title: "Robotics",
       description: "Hands-on robotics and coding experience designed for future engineers. Build, program, and compete with cutting-edge robotics technology.",
       image: roboticsImg,
       ageGroup: "Age 7+",
@@ -83,11 +83,11 @@ const Courses = () => {
       slug: "mnemonic-science"
     },
     {
-      title: "Phonics & Reading",
+      title: "Phonics",
       description: "Comprehensive phonics program that builds strong reading foundations through systematic sound-symbol relationships and interactive learning methods.",
       image: phonicsImg,
-      ageGroup: "Age 4-10",
-      duration: "10 months",
+      ageGroup: "Age 4-7",
+      duration: "4 months",
       students: "250+",
       rating: "4.9",
       highlights: [
@@ -124,7 +124,7 @@ const Courses = () => {
     }
   ];
 
-  const whatsappNumber = "+919999999999";
+  const whatsappNumber = "+918208368355";
   const whatsappMessage = "Hi! I'd like to know more about the courses available at Hiran EduPro Academy.";
 
   return (

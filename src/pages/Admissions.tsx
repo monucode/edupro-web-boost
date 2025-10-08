@@ -18,6 +18,7 @@ const Admissions = () => {
     email: "",
     phone: "",
     age: "",
+    address: "",
     branch: "",
     course: "",
     message: ""
@@ -37,7 +38,7 @@ const Admissions = () => {
     }
 
     // WhatsApp integration
-    const whatsappNumber = "+919999999999";
+    const whatsappNumber = "+918208368355";
     const message = `
 New Admission Inquiry - Hiran EduPro Academy
 
@@ -46,6 +47,7 @@ Parent Name: ${formData.parentName}
 Email: ${formData.email}
 Phone: ${formData.phone}
 Age: ${formData.age}
+Address: ${formData.address}
 Preferred Branch: ${formData.branch}
 Interested Course: ${formData.course}
 Message: ${formData.message}
@@ -66,6 +68,7 @@ Message: ${formData.message}
       email: "",
       phone: "",
       age: "",
+      address: "",
       branch: "",
       course: "",
       message: ""
@@ -148,7 +151,7 @@ Message: ${formData.message}
                 </Button>
               </a>
               
-              <a href="tel:+919999999999">
+              <a href="tel:+918208368355">
                 <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 gap-2">
                   <Phone className="h-5 w-5" />
                   Call for Info
@@ -257,6 +260,18 @@ Message: ${formData.message}
                     </div>
                   </div>
 
+                  <div className="space-y-2">
+                    <Label htmlFor="address">Address *</Label>
+                    <Textarea
+                      id="address"
+                      value={formData.address}
+                      onChange={(e) => setFormData({...formData, address: e.target.value})}
+                      placeholder="Enter complete address"
+                      rows={2}
+                      required
+                    />
+                  </div>
+
                   <div className="grid md:grid-cols-3 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="age">Student Age</Label>
@@ -280,7 +295,6 @@ Message: ${formData.message}
                         <SelectContent>
                           <SelectItem value="govind-nagar">Govind Nagar</SelectItem>
                           <SelectItem value="manmad">Manmad</SelectItem>
-                          <SelectItem value="bafna-bazar">Bafna Bazar</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -293,10 +307,10 @@ Message: ${formData.message}
                         </SelectTrigger>
                         <SelectContent>
                           <SelectItem value="vedic-maths">Vedic Mathematics</SelectItem>
-                          <SelectItem value="robotics">Robotics Pro</SelectItem>
+                          <SelectItem value="robotics">Robotics</SelectItem>
                           <SelectItem value="abacus">Abacus Training</SelectItem>
                           <SelectItem value="mnemonic">Mnemonic Science</SelectItem>
-                          <SelectItem value="phonics">Phonics & Reading</SelectItem>
+                          <SelectItem value="phonics">Phonics</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -367,7 +381,7 @@ Message: ${formData.message}
                       <Phone className="h-5 w-5 text-secondary" />
                       <div>
                         <div className="font-medium">Call Us</div>
-                        <div className="text-white/80 text-sm">+91-9999999999</div>
+                        <div className="text-white/80 text-sm">+91-8208368355</div>
                       </div>
                     </div>
                     
