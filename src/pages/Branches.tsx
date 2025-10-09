@@ -11,7 +11,7 @@ const Branches = () => {
       name: "Govind Nagar Branch",
       address: "Plot No. 123, Govind Nagar, Near Central School, Maharashtra 401203",
       phone: "+91-8208368355",
-      timings: "Monday to Saturday: 9:00 AM - 7:00 PM",
+      timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
       studentsCount: "200+",
       features: [
         "Modern smart classrooms",
@@ -31,8 +31,8 @@ const Branches = () => {
     {
       name: "Manmad Branch", 
       address: "Shop No. 456, Main Road, Manmad, Near Bus Stand, Maharashtra 423104",
-      phone: "+91-9999999997",
-      timings: "Monday to Saturday: 10:00 AM - 6:00 PM",
+      phone: "+91-8208368355",
+      timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
       studentsCount: "150+",
       features: [
         "Interactive smart boards",
