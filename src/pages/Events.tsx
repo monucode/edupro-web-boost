@@ -19,42 +19,6 @@ const Events = () => {
       highlights: ["Multi-category competitions", "National recognition", "Grand prizes", "Networking opportunities"]
     },
     {
-      title: "Inter-Branch Vedic Maths Championship",
-      date: "15th December 2024",
-      time: "10:00 AM - 4:00 PM",
-      venue: "Govind Nagar Branch",
-      description: "Annual mathematics competition featuring students from all branches competing in Vedic calculation challenges.",
-      category: "Competition",
-      participants: "50+ students",
-      ageGroup: "8-16 years",
-      registration: "Open until Dec 10th",
-      highlights: ["Speed calculation rounds", "Problem solving challenges", "Certificates and prizes", "Recognition ceremony"]
-    },
-    {
-      title: "Robotics Workshop & Exhibition",
-      date: "22nd December 2024", 
-      time: "2:00 PM - 6:00 PM",
-      venue: "All Branches",
-      description: "Interactive workshop where students showcase their robotics projects and learn advanced programming techniques.",
-      category: "Workshop",
-      participants: "30+ students per branch",
-      ageGroup: "10-18 years", 
-      registration: "Limited seats",
-      highlights: ["Project demonstrations", "Hands-on building session", "Guest expert sessions", "Innovation awards"]
-    },
-    {
-      title: "Memory Mastery Seminar",
-      date: "5th January 2025",
-      time: "11:00 AM - 1:00 PM",
-      venue: "Manmad Branch",
-      description: "Special seminar on advanced memory techniques and study strategies for students and parents.",
-      category: "Seminar",
-      participants: "Parents & Students",
-      ageGroup: "All ages",
-      registration: "Free entry",
-      highlights: ["Memory technique demonstrations", "Study tips for parents", "Interactive activities", "Q&A session"]
-    },
-    {
       title: "Regional Abacus Competition",
       date: "November 2024",
       time: "9:00 AM - 3:00 PM", 
@@ -65,18 +29,6 @@ const Events = () => {
       ageGroup: "7-12 years",
       registration: "Completed",
       highlights: ["Regional recognition", "Speed calculation rounds", "Mental math challenges", "Trophy and medals ceremony"]
-    },
-    {
-      title: "Abacus Speed Championship",
-      date: "12th January 2025",
-      time: "9:00 AM - 12:00 PM", 
-      venue: "Govind Nagar Branch",
-      description: "High-speed mental calculation competition using abacus techniques with participants from multiple academies.",
-      category: "Competition",
-      participants: "40+ students",
-      ageGroup: "7-12 years",
-      registration: "Open to all levels",
-      highlights: ["Multi-level competitions", "Speed calculation rounds", "Mental math challenges", "Trophy ceremony"]
     }
   ];
 
