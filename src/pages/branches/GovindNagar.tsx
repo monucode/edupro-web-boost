@@ -11,7 +11,7 @@ const GovindNagar = () => {
     address: "Plot No. 123, Govind Nagar, Near Central School, Maharashtra 401203",
     phone: "+91-8208368355",
     email: "govindnagar@hiraneduproacademy.com",
-    timings: "Monday to Saturday: 9:00 AM - 7:00 PM",
+    timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
     established: "2020",
     studentsCount: "200+",
     floorArea: "2500 sq ft",
@@ -20,13 +20,9 @@ const GovindNagar = () => {
   };
 
   const features = [
-    "Modern smart classrooms with interactive displays",
-    "Dedicated robotics laboratory with latest equipment",
-    "Well-stocked library with 500+ educational books",
-    "Computer lab with 20+ latest systems",
+    "Modern smart classrooms with displays",
     "Activity and recreation area for students",
-    "Parent waiting lounge with refreshments",
-    "Air-conditioned learning spaces",
+    "Parent waiting rooms",
     "CCTV surveillance for safety"
   ];
 

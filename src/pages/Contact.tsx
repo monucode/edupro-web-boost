@@ -70,8 +70,8 @@ Message: ${formData.message}
       address: "Plot No. 123, Govind Nagar, Near Central School, Maharashtra 401203",
       phone: "+91-8208368355",
       email: "govindnagar@hiraneduproacademy.com",
-      timings: "Monday to Saturday: 9:00 AM - 7:00 PM",
-      incharge: "Mrs. Priya Sharma",
+      timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
+      incharge: "Mrs. Harshada Hiran",
       designation: "Branch Manager",
       specialties: ["Vedic Maths", "Robotics", "All Courses"],
       isMain: true
@@ -79,10 +79,10 @@ Message: ${formData.message}
     {
       name: "Manmad Branch", 
       address: "Shop No. 456, Main Road, Manmad, Near Bus Stand, Maharashtra 423104",
-      phone: "+91-9999999997",
+      phone: "+91-8208368355",
       email: "manmad@hiraneduproacademy.com",
-      timings: "Monday to Saturday: 10:00 AM - 6:00 PM",
-      incharge: "Mr. Rajesh Patel",
+      timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
+      incharge: "Mrs. Harshada Hiran",
       designation: "Branch Coordinator",
       specialties: ["Abacus Training", "Mnemonic Science", "Phonics"]
     }
@@ -281,7 +281,8 @@ Message: ${formData.message}
                     </div>
                     <div>
                       <div className="font-semibold">Office Hours</div>
-                      <div className="text-white/90">Mon-Sat: 9:00 AM - 7:00 PM</div>
+                      <div className="text-white/90">Mon-Fri: 8:45 AM - 2:00 PM</div>
+                      <div className="text-white/90">Sat-Sun: 10:00 AM - 3:00 PM</div>
                     </div>
                   </div>
                   

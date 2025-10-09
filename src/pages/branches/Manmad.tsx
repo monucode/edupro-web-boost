@@ -11,7 +11,7 @@ const Manmad = () => {
     address: "Shop No. 456, Main Road, Manmad, Near Bus Stand, Maharashtra 423104",
     phone: "+91-8208368355",
     email: "manmad@hiraneduproacademy.com",
-    timings: "Monday to Saturday: 10:00 AM - 6:00 PM",
+    timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
     established: "2022",
     studentsCount: "150+",
     floorArea: "1800 sq ft",
@@ -20,14 +20,10 @@ const Manmad = () => {
   };
 
   const features = [
-    "Interactive smart boards in all classrooms",
-    "Spacious computer laboratory with modern systems",
-    "Student activity and recreation room",
-    "Fully air-conditioned learning spaces",
-    "Separate study areas for different age groups",
-    "Convenient parking facility for parents",
-    "Safety-certified infrastructure",
-    "Accessible location near bus stand"
+    "Modern smart classrooms with displays",
+    "Activity and recreation area for students",
+    "Parent waiting rooms",
+    "CCTV surveillance for safety"
   ];
 
   const courses = [
