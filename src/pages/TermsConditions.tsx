@@ -48,7 +48,7 @@ const TermsConditions = () => {
                 <ul className="list-disc list-inside space-y-2">
                   <li>Abacus Training: Ages 5-14</li>
                   <li>Vedic Mathematics: Ages 8-16</li>
-                  <li>Robotics Pro: Ages 7-15</li>
+                  <li>Robotics: Ages 7-15</li>
                   <li>Mnemonic Science: Ages 6-16</li>
                   <li>Phonics & Reading: Ages 3-8</li>
                 </ul>

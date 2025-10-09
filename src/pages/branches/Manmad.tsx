@@ -9,7 +9,7 @@ const Manmad = () => {
     name: "Manmad Branch",
     tagline: "Excellence in the Heart of Manmad",
     address: "Shop No. 456, Main Road, Manmad, Near Bus Stand, Maharashtra 423104",
-    phone: "+91-9999999997",
+    phone: "+91-8208368355",
     email: "manmad@hiraneduproacademy.com",
     timings: "Monday to Saturday: 10:00 AM - 6:00 PM",
     established: "2022",
@@ -56,7 +56,7 @@ const Manmad = () => {
       icon: <Award className="h-5 w-5" />
     },
     {
-      name: "Robotics Pro",
+      name: "Robotics",
       students: "10+",
       batches: "1 batch",
       icon: <Users className="h-5 w-5" />

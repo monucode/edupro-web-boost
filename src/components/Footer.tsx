@@ -163,7 +163,7 @@ const Footer = () => {
               <p className="mt-1">
                 Designed & Developed by{" "}
                 <a 
-                  href="https://hexamad.com" 
+                  href="https://www.hexamad.in" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary hover:underline font-medium"

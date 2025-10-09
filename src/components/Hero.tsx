@@ -37,7 +37,7 @@ const Hero = () => {
 
             <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed max-w-lg">
               Unlock your child's potential with our innovative courses in Vedic Maths, 
-              Robotics Pro, Abacus, Mnemonic Science, and Phonics. Join thousands of 
+              Robotics, Abacus, Mnemonic Science, and Phonics. Join thousands of 
               successful students across our 2 branches.
             </p>
             

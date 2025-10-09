@@ -73,7 +73,7 @@ Message: ${formData.message}
       timings: "Monday to Saturday: 9:00 AM - 7:00 PM",
       incharge: "Mrs. Priya Sharma",
       designation: "Branch Manager",
-      specialties: ["Vedic Maths", "Robotics Pro", "All Courses"],
+      specialties: ["Vedic Maths", "Robotics", "All Courses"],
       isMain: true
     },
     {

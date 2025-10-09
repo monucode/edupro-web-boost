@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 import roboticsImg from "@/assets/robotics-pro.jpg";
 
 const RoboticsPro = () => {
-  const whatsappNumber = "+919999999999";
-  const whatsappMessage = "Hi! I'd like to know more about the Robotics Pro course at Hiran EduPro Academy.";
+  const whatsappNumber = "+918208368355";
+  const whatsappMessage = "Hi! I'd like to know more about the Robotics course at Hiran EduPro Academy.";
 
   return (
     <main className="pt-16">
@@ -18,7 +18,7 @@ const RoboticsPro = () => {
             <div>
               <Badge className="mb-4 bg-primary/10 text-primary">Age 7+ Years</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
-                Robotics Pro
+                Robotics
               </h1>
               <p className="text-xl text-muted-foreground mb-6 leading-relaxed">
                 ₹4000 (includes kit & study material) | 2 hours/day | Saturday & Sunday
@@ -66,7 +66,7 @@ const RoboticsPro = () => {
             <div className="relative">
               <img
                 src={roboticsImg}
-                alt="Robotics Pro course at Hiran EduPro Academy"
+                alt="Robotics course at Hiran EduPro Academy"
                 className="w-full h-96 object-cover rounded-2xl shadow-elegant"
               />
             </div>
@@ -261,8 +261,8 @@ const RoboticsPro = () => {
             Shape the Future Engineers
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Enroll your child in our Robotics Pro course and watch them build the technology of tomorrow. 
-            Limited seats available in each batch.
+            Enroll your child in our Robotics course and watch them build the technology of tomorrow. 
+            Limited seats available in each batch. Trial class available only for a few days after opening.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

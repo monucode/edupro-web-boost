@@ -38,7 +38,7 @@ const GovindNagar = () => {
       icon: <BookOpen className="h-5 w-5" />
     },
     {
-      name: "Robotics Pro",
+      name: "Robotics",
       students: "50+",
       batches: "3 batches",
       icon: <Award className="h-5 w-5" />

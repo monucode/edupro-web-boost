@@ -32,7 +32,7 @@ const Home = () => {
       slug: "vedic-mathematics"
     },
     {
-      title: "Robotics Pro",
+      title: "Robotics",
       description: "Hands-on robotics and coding experience for future engineers. Learn programming, electronics, and problem-solving.",
       image: roboticsImg,
       ageGroup: "Age 7+",
@@ -95,7 +95,7 @@ const Home = () => {
     {
       name: "Rajesh Patel", 
       role: "Parent",
-      content: "The Robotics Pro course opened up a whole new world for my son. He's now planning to become a robotics engineer!",
+      content: "The Robotics course opened up a whole new world for my son. He's now planning to become a robotics engineer!",
       rating: 5
     },
     {
