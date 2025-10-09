@@ -10,12 +10,12 @@ const Events = () => {
       title: "National Competition Summer",
       date: "June 2025",
       time: "9:00 AM - 5:00 PM",
-      venue: "To be announced",
+      venue: "Nashik",
       description: "National level competition showcasing talent from across the country in various academic disciplines.",
       category: "Competition",
       participants: "100+ students",
       ageGroup: "All ages",
-      registration: "Opening soon",
+      registration: "Completed",
       highlights: ["Multi-category competitions", "National recognition", "Grand prizes", "Networking opportunities"]
     },
     {
@@ -47,14 +47,6 @@ const Events = () => {
       description: "Grand celebration showcasing student achievements, cultural performances, and academic excellence awards.",
       images: 4,
       participants: "200+ families",
-      hasGallery: false
-    },
-    {
-      title: "Science & Technology Fair",
-      date: "February 2024", 
-      description: "Student-led science exhibition featuring innovative projects and technological innovations.",
-      images: 6,
-      participants: "150+ projects",
       hasGallery: false
     },
     {
