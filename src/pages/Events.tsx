@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, Clock, Users, Trophy, BookOpen, ArrowRight, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import { EventGallery } from "@/components/EventGallery";
 
 const Events = () => {
   const upcomingEvents = [
@@ -219,7 +220,7 @@ const Events = () => {
                       </ul>
                     </div>
                     
-                    <div className="flex gap-3">
+                    <div className="flex gap-3 mb-3">
                       <Button className="flex-1 bg-gradient-primary hover:opacity-90 gap-2">
                         Register Now
                         <ArrowRight className="h-4 w-4" />
@@ -236,6 +237,8 @@ const Events = () => {
                         </Button>
                       </a>
                     </div>
+                    
+                    <EventGallery eventTitle={event.title} />
                   </div>
                 </CardContent>
               </Card>
