@@ -35,28 +35,31 @@ const Events = () => {
 
   const pastEvents = [
     {
+      id: "regional-abacus-2024",
       title: "Regional Abacus Competition",
       date: "November 2024",
       description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills.",
-      images: 0,
+      images: 6,
       participants: "60+ students",
       hasGallery: true
     },
     {
+      id: "annual-day-2024",
       title: "Annual Day Celebration 2024",
       date: "March 2024",
       description: "Grand celebration showcasing student achievements, cultural performances, and academic excellence awards.",
       images: 4,
       participants: "200+ families",
-      hasGallery: false
+      hasGallery: true
     },
     {
+      id: "parent-teacher-2024",
       title: "Parent-Teacher Conference", 
       date: "January 2024",
       description: "Comprehensive academic review sessions with personalized feedback and development planning.",
       images: 3,
       participants: "300+ parents",
-      hasGallery: false
+      hasGallery: true
     }
   ];
 
@@ -265,18 +268,8 @@ const Events = () => {
                 <CardHeader>
                   <div className="w-full h-48 bg-gradient-subtle rounded-lg flex items-center justify-center mb-4">
                     <div className="text-center">
-                      {event.hasGallery ? (
-                        <>
-                          <BookOpen className="h-12 w-12 text-primary mx-auto mb-2" />
-                          <div className="text-sm text-muted-foreground">Gallery Available</div>
-                          <div className="text-xs text-muted-foreground mt-1">Upload images coming soon</div>
-                        </>
-                      ) : (
-                        <>
-                          <BookOpen className="h-12 w-12 text-primary mx-auto mb-2" />
-                          <div className="text-sm text-muted-foreground">{event.images} Photos Available</div>
-                        </>
-                      )}
+                      <BookOpen className="h-12 w-12 text-primary mx-auto mb-2" />
+                      <div className="text-sm text-muted-foreground">{event.images} Photos Available</div>
                     </div>
                   </div>
                   <CardTitle className="text-xl">{event.title}</CardTitle>
@@ -289,16 +282,12 @@ const Events = () => {
                   <p className="text-muted-foreground mb-4">{event.description}</p>
                   <div className="flex items-center justify-between">
                     <Badge variant="outline">{event.participants}</Badge>
-                    {event.hasGallery ? (
-                      <Button variant="ghost" size="sm" className="gap-2" disabled>
-                        Gallery Coming Soon
-                      </Button>
-                    ) : (
+                    <Link to={`/events/${event.id}`}>
                       <Button variant="ghost" size="sm" className="gap-2">
                         View Gallery
                         <ArrowRight className="h-3 w-3" />
                       </Button>
-                    )}
+                    </Link>
                   </div>
                 </CardContent>
               </Card>

@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import NotFound from "./pages/NotFound";
+import EventGallery from "./pages/EventGallery";
 
 // Course detail pages
 import VedicMathematics from "./pages/courses/VedicMathematics";
@@ -53,7 +54,8 @@ const App = () => (
                 <Route path="/branches/govind-nagar" element={<GovindNagar />} />
                 <Route path="/branches/manmad" element={<Manmad />} />
                 <Route path="/admissions" element={<Admissions />} />
-                <Route path="/events" element={<Events />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/events/:eventId" element={<EventGallery />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/terms-conditions" element={<TermsConditions />} />
