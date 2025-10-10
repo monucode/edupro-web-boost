@@ -333,13 +333,13 @@ const GovindNagar = () => {
             </Link>
             
             <a href={`tel:${branchData.phone}`}>
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10">
+              <Button size="lg" variant="hero">
                 Call Branch
               </Button>
             </a>
             
             <Link to="/contact">
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 gap-2">
+              <Button size="lg" variant="hero" className="gap-2">
                 Get Directions
                 <ArrowRight className="h-4 w-4" />
               </Button>

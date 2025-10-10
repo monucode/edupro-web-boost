@@ -303,7 +303,7 @@ const AbacusTraining = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10">
+              <Button size="lg" variant="hero">
                 Book Assessment
               </Button>
             </a>

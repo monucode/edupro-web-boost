@@ -152,7 +152,7 @@ Message: ${formData.message}
               </a>
               
               <a href="tel:+918208368355">
-                <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 gap-2">
+                <Button size="lg" variant="hero" className="gap-2">
                   <Phone className="h-5 w-5" />
                   Call for Info
                 </Button>

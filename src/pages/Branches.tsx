@@ -169,7 +169,7 @@ const Branches = () => {
                       </Link>
                       
                       <a href={`tel:${branch.phone}`}>
-                        <Button variant="outline" className="border-white/20 text-white hover:bg-white/10">
+                        <Button variant="hero">
                           Call Now
                         </Button>
                       </a>
@@ -308,7 +308,7 @@ const Branches = () => {
             </Link>
             
             <Link to="/admissions">
-              <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10">
+              <Button size="lg" variant="hero">
                 Start Enrollment
               </Button>
             </Link>

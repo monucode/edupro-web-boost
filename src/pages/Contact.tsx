@@ -129,7 +129,7 @@ Message: ${formData.message}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 gap-2">
+                <Button size="lg" variant="hero" className="gap-2">
                   <MessageCircle className="h-5 w-5" />
                   WhatsApp Us
                 </Button>
