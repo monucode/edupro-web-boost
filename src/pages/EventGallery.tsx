@@ -5,6 +5,15 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { ArrowLeft, Calendar, Users, MapPin } from "lucide-react";
+import nationalComp1 from "@/assets/events/national-comp-1.jpeg";
+import nationalComp2 from "@/assets/events/national-comp-2.jpeg";
+import nationalComp3 from "@/assets/events/national-comp-3.jpeg";
+import nationalComp4 from "@/assets/events/national-comp-4.jpeg";
+import nationalComp5 from "@/assets/events/national-comp-5.jpeg";
+import nationalComp6 from "@/assets/events/national-comp-6.jpeg";
+import nationalComp7 from "@/assets/events/national-comp-7.jpeg";
+import nationalComp8 from "@/assets/events/national-comp-8.jpeg";
+import nationalComp9 from "@/assets/events/national-comp-9.jpeg";
 
 const EventGallery = () => {
   const { eventId } = useParams();
@@ -19,6 +28,7 @@ const EventGallery = () => {
     participants: string;
     description: string;
     storageKey: string;
+    defaultImages?: string[];
   }> = {
     "regional-abacus-2024": {
       title: "Regional Abacus Competition",
@@ -34,7 +44,18 @@ const EventGallery = () => {
       venue: "Nashik",
       participants: "100+ students",
       description: "National level competition showcasing talent from across the country in various academic disciplines.",
-      storageKey: "event-gallery-national-competition-summer"
+      storageKey: "event-gallery-national-competition-summer",
+      defaultImages: [
+        nationalComp1,
+        nationalComp2,
+        nationalComp3,
+        nationalComp4,
+        nationalComp5,
+        nationalComp6,
+        nationalComp7,
+        nationalComp8,
+        nationalComp9
+      ]
     },
     "parent-teacher-2024": {
       title: "Parent-Teacher Conference",
@@ -51,7 +72,12 @@ const EventGallery = () => {
   useEffect(() => {
     if (event) {
       const saved = localStorage.getItem(event.storageKey);
-      setGalleryImages(saved ? JSON.parse(saved) : []);
+      const savedImages = saved ? JSON.parse(saved) : [];
+      // Merge default images with saved images from localStorage
+      const allImages = event.defaultImages 
+        ? [...event.defaultImages, ...savedImages]
+        : savedImages;
+      setGalleryImages(allImages);
     }
   }, [event]);
 
