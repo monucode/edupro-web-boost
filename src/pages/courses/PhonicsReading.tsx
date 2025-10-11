@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Clock, Users, Star, CheckCircle, Volume2, BookOpen, Mic, Sparkles, Trophy, Award } from "lucide-react";
 import { Link } from "react-router-dom";
-import phonicsImg from "@/assets/phonics-course.jpg";
+import phonicsImg from "@/assets/phonics-course.png";
 
 const PhonicsReading = () => {
   const whatsappNumber = "+918208368355";

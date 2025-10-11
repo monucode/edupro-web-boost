@@ -44,12 +44,12 @@ const Events = () => {
       hasGallery: true
     },
     {
-      id: "annual-day-2024",
-      title: "Annual Day Celebration 2024",
-      date: "March 2024",
-      description: "Grand celebration showcasing student achievements, cultural performances, and academic excellence awards.",
-      images: 4,
-      participants: "200+ families",
+      id: "national-competition-summer-2025",
+      title: "National Competition Summer 2025",
+      date: "June 2025",
+      description: "National level competition showcasing talent from across the country in various academic disciplines.",
+      images: 0,
+      participants: "100+ students",
       hasGallery: true
     },
     {

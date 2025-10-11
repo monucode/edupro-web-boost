@@ -10,7 +10,11 @@ interface EventGalleryProps {
 }
 
 export const EventGallery = ({ eventTitle }: EventGalleryProps) => {
-  const [images, setImages] = useState<string[]>([]);
+  const storageKey = `event-gallery-${eventTitle.toLowerCase().replace(/\s+/g, '-')}`;
+  const [images, setImages] = useState<string[]>(() => {
+    const saved = localStorage.getItem(storageKey);
+    return saved ? JSON.parse(saved) : [];
+  });
   const { toast } = useToast();
 
   const handleImageUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -24,7 +28,9 @@ export const EventGallery = ({ eventTitle }: EventGalleryProps) => {
         reader.onloadend = () => {
           newImages.push(reader.result as string);
           if (newImages.length === files.length) {
-            setImages([...images, ...newImages]);
+            const updatedImages = [...images, ...newImages];
+            setImages(updatedImages);
+            localStorage.setItem(storageKey, JSON.stringify(updatedImages));
             toast({
               title: "Images uploaded successfully",
               description: `${newImages.length} image(s) added to ${eventTitle} gallery`,
@@ -37,7 +43,9 @@ export const EventGallery = ({ eventTitle }: EventGalleryProps) => {
   };
 
   const removeImage = (index: number) => {
-    setImages(images.filter((_, i) => i !== index));
+    const updatedImages = images.filter((_, i) => i !== index);
+    setImages(updatedImages);
+    localStorage.setItem(storageKey, JSON.stringify(updatedImages));
     toast({
       title: "Image removed",
       description: "Image has been removed from the gallery",

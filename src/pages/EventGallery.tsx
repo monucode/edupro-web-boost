@@ -1,15 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { ArrowLeft, Calendar, Users, MapPin, X } from "lucide-react";
+import { ArrowLeft, Calendar, Users, MapPin } from "lucide-react";
 
 const EventGallery = () => {
   const { eventId } = useParams();
   const navigate = useNavigate();
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [galleryImages, setGalleryImages] = useState<string[]>([]);
 
   // Event data based on eventId
   const eventData: Record<string, {
@@ -18,7 +18,7 @@ const EventGallery = () => {
     venue: string;
     participants: string;
     description: string;
-    images: string[];
+    storageKey: string;
   }> = {
     "regional-abacus-2024": {
       title: "Regional Abacus Competition",
@@ -26,27 +26,15 @@ const EventGallery = () => {
       venue: "Govind Nagar Branch",
       participants: "60+ students",
       description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills and mental math abilities.",
-      images: [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-      ]
+      storageKey: "event-gallery-regional-abacus-competition"
     },
-    "annual-day-2024": {
-      title: "Annual Day Celebration 2024",
-      date: "March 2024",
-      venue: "Main Campus",
-      participants: "200+ families",
-      description: "Grand celebration showcasing student achievements, cultural performances, and academic excellence awards.",
-      images: [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-      ]
+    "national-competition-summer-2025": {
+      title: "National Competition Summer 2025",
+      date: "June 2025",
+      venue: "Nashik",
+      participants: "100+ students",
+      description: "National level competition showcasing talent from across the country in various academic disciplines.",
+      storageKey: "event-gallery-national-competition-summer"
     },
     "parent-teacher-2024": {
       title: "Parent-Teacher Conference",
@@ -54,15 +42,18 @@ const EventGallery = () => {
       venue: "All Branches",
       participants: "300+ parents",
       description: "Comprehensive academic review sessions with personalized feedback and development planning.",
-      images: [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-      ]
+      storageKey: "event-gallery-parent-teacher-conference"
     }
   };
 
   const event = eventId ? eventData[eventId] : null;
+
+  useEffect(() => {
+    if (event) {
+      const saved = localStorage.getItem(event.storageKey);
+      setGalleryImages(saved ? JSON.parse(saved) : []);
+    }
+  }, [event]);
 
   if (!event) {
     return (
@@ -128,12 +119,13 @@ const EventGallery = () => {
           <div className="mb-8">
             <h2 className="text-3xl font-bold mb-2">Event Photos</h2>
             <p className="text-muted-foreground">
-              {event.images.length} photos from this event
+              {galleryImages.length > 0 ? `${galleryImages.length} photos from this event` : "No photos uploaded yet"}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {event.images.map((image, index) => (
+          {galleryImages.length > 0 ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {galleryImages.map((image, index) => (
               <Dialog key={index}>
                 <DialogTrigger asChild>
                   <Card className="overflow-hidden cursor-pointer group card-enhanced">
@@ -159,8 +151,17 @@ const EventGallery = () => {
                   </div>
                 </DialogContent>
               </Dialog>
-            ))}
-          </div>
+              ))}
+            </div>
+          ) : (
+            <div className="text-center py-20">
+              <p className="text-xl text-muted-foreground mb-4">No images have been uploaded for this event yet.</p>
+              <Button onClick={() => navigate("/events")} variant="outline">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back to Events
+              </Button>
+            </div>
+          )}
 
           {/* Event Highlights */}
           <Card className="mt-12 card-enhanced">

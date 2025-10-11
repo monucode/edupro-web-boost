@@ -10,7 +10,7 @@ import vedicMathsImg from "@/assets/vedic-maths.jpg";
 import roboticsImg from "@/assets/robotics-pro.jpg";
 import abacusImg from "@/assets/abacus-training.jpg";
 import mnemonicImg from "@/assets/mnemonic-science.jpg";
-import phonicsImg from "@/assets/phonics-course.jpg";
+import phonicsImg from "@/assets/phonics-course.png";
 
 const Courses = () => {
   const courses = [
