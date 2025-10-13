@@ -15,11 +15,9 @@ const Branches = () => {
       studentsCount: "200+",
       features: [
         "Modern smart classrooms",
-        "Dedicated robotics laboratory",
-        "Well-equipped library",
-        "Computer lab with latest systems",
+        "CCTV surveillance for safety",
         "Activity and recreation area",
-        "Parent waiting lounge"
+        "Parent waiting room"
       ],
       slug: "govind-nagar",
       isPopular: true,
@@ -36,11 +34,10 @@ const Branches = () => {
       studentsCount: "150+",
       features: [
         "Interactive smart boards",
-        "Spacious computer laboratory",
-        "Student activity room",
-        "Air-conditioned classrooms",
-        "Separate study areas",
-        "Parking facility"
+        "Modern smart classrooms",
+        "CCTV surveillance for safety",
+        "Activity and recreation area",
+        "Parent waiting room"
       ],
       slug: "manmad",
       description: "Conveniently located branch serving the Manmad community with excellence.",
