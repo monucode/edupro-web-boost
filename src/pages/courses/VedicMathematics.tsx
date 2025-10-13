@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import vedicMathsImg from "@/assets/vedic-maths.jpg";
 
 const VedicMathematics = () => {
-  const whatsappNumber = "+919999999999";
+  const whatsappNumber = "+918208368355";
   const whatsappMessage = "Hi! I'd like to know more about the Vedic Mathematics course at Hiran EduPro Academy.";
 
   return (
@@ -16,7 +16,7 @@ const VedicMathematics = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 7+ Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">Std. 7th+</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Vedic Mathematics
               </h1>
