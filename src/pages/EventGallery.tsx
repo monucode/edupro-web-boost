@@ -14,6 +14,10 @@ import nationalComp6 from "@/assets/events/national-comp-6.jpeg";
 import nationalComp7 from "@/assets/events/national-comp-7.jpeg";
 import nationalComp8 from "@/assets/events/national-comp-8.jpeg";
 import nationalComp9 from "@/assets/events/national-comp-9.jpeg";
+import regionalComp1 from "@/assets/events/regional-comp-1.jpeg";
+import regionalComp2 from "@/assets/events/regional-comp-2.jpeg";
+import regionalComp3 from "@/assets/events/regional-comp-3.jpeg";
+import regionalComp4 from "@/assets/events/regional-comp-4.jpeg";
 
 const EventGallery = () => {
   const { eventId } = useParams();
@@ -36,7 +40,13 @@ const EventGallery = () => {
       venue: "Govind Nagar Branch",
       participants: "60+ students",
       description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills and mental math abilities.",
-      storageKey: "event-gallery-regional-abacus-competition"
+      storageKey: "event-gallery-regional-abacus-competition",
+      defaultImages: [
+        regionalComp1,
+        regionalComp2,
+        regionalComp3,
+        regionalComp4
+      ]
     },
     "national-competition-summer-2025": {
       title: "National Competition Summer 2025",
