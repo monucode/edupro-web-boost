@@ -67,7 +67,7 @@ Message: ${formData.message}
   const branches = [
     {
       name: "Govind Nagar Branch",
-      address: "Plot No. 123, Govind Nagar, Near Central School, Maharashtra 401203",
+      address: "Plot No. 14, Rambagh Colony, Bhujbal Farm Road, Behind Runghta Bela Vista, Govind Nagar, Nashik, Maharashtra 401203",
       phone: "+91-8208368355",
       email: "govindnagar@hiraneduproacademy.com",
       timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
