@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import mnemonicImg from "@/assets/mnemonic-science.jpg";
 
 const MnemonicScience = () => {
-  const whatsappNumber = "+919999999999";
+  const whatsappNumber = "+918208368355";
   const whatsappMessage = "Hi! I'd like to know more about the Mnemonic Science course at Hiran EduPro Academy.";
 
   return (
