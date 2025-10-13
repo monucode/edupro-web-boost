@@ -8,7 +8,7 @@ interface CourseCardProps {
   title: string;
   description: string;
   image: string;
-  ageGroup: string;
+  Grade: string;
   duration: string;
   students: string;
   rating: string;
@@ -20,7 +20,7 @@ const CourseCard = ({
   title, 
   description, 
   image, 
-  ageGroup, 
+  Grade, 
   duration, 
   students, 
   rating, 
@@ -37,7 +37,7 @@ const CourseCard = ({
         />
         <div className="absolute top-4 left-4">
           <Badge className="bg-secondary text-secondary-foreground">
-            {ageGroup}
+            {Grade}
           </Badge>
         </div>
         <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-2 py-1 flex items-center space-x-1">
