@@ -8,7 +8,7 @@ const Manmad = () => {
   const branchData = {
     name: "Manmad Branch",
     tagline: "Excellence in the Heart of Manmad",
-    address: "Shop No. 456, Main Road, Manmad, Near Bus Stand, Maharashtra 423104",
+    address: "First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104",
     phone: "+91-8208368355",
     email: "manmad@hiraneduproacademy.com",
     timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
