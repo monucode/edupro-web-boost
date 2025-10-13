@@ -16,7 +16,7 @@ const AbacusTraining = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Jr.Kg.- Std. 7th</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary"> Jr.Kg.- Std. 7th </Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Abacus Training
               </h1>
