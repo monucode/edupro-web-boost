@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import abacusImg from "@/assets/abacus-training.jpg";
 
 const AbacusTraining = () => {
-  const whatsappNumber = "+919999999999";
+  const whatsappNumber = "+918208368355";
   const whatsappMessage = "Hi! I'd like to know more about the Abacus Training course at Hiran EduPro Academy.";
 
   return (
