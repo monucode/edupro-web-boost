@@ -121,8 +121,8 @@ const Footer = () => {
               <div className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="font-medium">Main Branch - Govind Nagar</p>
-                  <p className="text-muted-foreground">123 Education Street, Govind Nagar</p>
+                  <p className="font-medium">Main Branch - Manmad</p>
+                  <p className="text-muted-foreground">First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104</p>
                 </div>
               </div>
               
