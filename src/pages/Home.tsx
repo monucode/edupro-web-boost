@@ -20,7 +20,7 @@ const Home = () => {
       title: "Vedic Mathematics",
       description: "Ancient calculation techniques that make math fun and fast. Students learn to solve complex problems mentally in seconds.",
       image: vedicMathsImg,
-      ageGroup: "Age 7+",
+      Grade: "Std. 7th+",
       duration: "4 months",
       students: "200+",
       rating: "4.9",
@@ -35,7 +35,7 @@ const Home = () => {
       title: "Robotics",
       description: "Hands-on robotics and coding experience for future engineers. Learn programming, electronics, and problem-solving.",
       image: roboticsImg,
-      ageGroup: "Age 7+",
+      Grade: "Std. 1st+",
       duration: "4 months",
       students: "150+",
       rating: "4.8",
@@ -50,7 +50,7 @@ const Home = () => {
       title: "Abacus Training",
       description: "Traditional counting method for enhanced brain development and mathematical skills through visual and tactile learning.",
       image: abacusImg,
-      ageGroup: "Age 7-12",
+      Grade: "Jr.Kg.- Std.7th",
       duration: "4 months",
       students: "300+",
       rating: "4.9",
@@ -66,21 +66,21 @@ const Home = () => {
   const branches = [
     {
       name: "Govind Nagar Branch",
-      address: "123 Govind Nagar, Near Central School, Maharashtra",
+      address: "Plot no 14 Rambagh Colony, Bhujbal Farm Road, Behind Runghta Bela Vista Govind Nagar, Nashik, Maharashtra-401203",
       phone: "+91-8208368355",
-      timings: "Mon-Fri: 8:45 AM - 2:00 PM | Sat-Sun: 10:00 AM - 3:00 PM",
+      timings: "Mon-Fri: 9:00 AM - 7:00 PM | Sat-Sun: 9:00 AM - 6:00 PM",
       studentsCount: "200+",
-      features: ["Modern classrooms", "Robotics lab", "Library"],
+      features: ["Modern classrooms", "Recreation area", "Parents waiting room"],
       slug: "govind-nagar",
       isPopular: true
     },
     {
       name: "Manmad Branch", 
-      address: "456 Main Road, Manmad, Maharashtra",
+      address: "First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104",
       phone: "+91-8208368355",
-      timings: "Mon-Fri: 8:45 AM - 2:00 PM | Sat-Sun: 10:00 AM - 3:00 PM",
+      timings: "Mon-Thru: 9:00 AM - 7:00 PM | Sat-Sun: 10:00 AM - 3:00 PM | Friday: Holiday",
       studentsCount: "150+",
-      features: ["Smart boards", "Computer lab", "Activity room"],
+      features: ["Smart boards", "CCTV Surveillance", "Activity room"],
       slug: "manmad"
     }
   ];
