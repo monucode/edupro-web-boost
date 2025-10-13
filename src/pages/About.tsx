@@ -32,7 +32,7 @@ const About = () => {
   const milestones = [
     { year: "2020", event: "Academy Founded", description: "Started with a vision to revolutionize education" },
     { year: "2021", event: "First 100 Students", description: "Reached our first major milestone with growing community" },
-    { year: "2022", event: "Multi-Branch Expansion", description: "Opened branches in Manmad and Bafna Bazar" },
+    { year: "2022", event: "Multi-Branch Expansion", description: "Opened branches in Manmad and Govind Nagar" },
     { year: "2023", event: "500+ Students", description: "Became the preferred choice for specialized education" },
     { year: "2024", event: "Award Recognition", description: "Recognized for excellence in innovative teaching methods" }
   ];
