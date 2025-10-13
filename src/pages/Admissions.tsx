@@ -110,7 +110,7 @@ Message: ${formData.message}
   const faqs = [
     {
       question: "What is the minimum age for enrollment?",
-      answer: "Age requirements vary by course - Phonics (4+ years), Abacus (5+ years), Vedic Maths (8+ years), Robotics (10+ years), Mnemonic Science (7+ years)."
+      answer: "Age requirements vary by course - Phonics (UKG.), Abacus (Jr.Kg.- Std. 7th ), Vedic Maths (Std. 7th+), Robotics (Std. 1st+), Mnemonic Science (Std. 4th+)."
     },
     {
       question: "Do you offer trial classes?",
