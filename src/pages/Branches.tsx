@@ -11,7 +11,7 @@ const Branches = () => {
       name: "Govind Nagar Branch",
       address: "Plot No. 14, Rambagh Colony, Bhujbal Farm Road, Behind Runghta Bela Vista, Govind Nagar, Nashik, Maharashtra 401203",
       phone: "+91-8208368355",
-      timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
+      timings: "Monday - Friday: 9:00 AM - 7:00 PM | Saturday - Sunday: 09:00 AM - 06:00 PM",
       studentsCount: "200+",
       features: [
         "Modern smart classrooms",
