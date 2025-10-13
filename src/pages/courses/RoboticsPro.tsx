@@ -16,7 +16,7 @@ const RoboticsPro = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary">Age 7+ Years</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary">UKG.+</Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Robotics
               </h1>
