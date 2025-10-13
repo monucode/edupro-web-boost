@@ -32,7 +32,7 @@ const Branches = () => {
       name: "Manmad Branch", 
       address: "First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104",
       phone: "+91-8208368355",
-      timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
+      timings: "Monday - Thursday: 9:00 AM - 7:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM | Friday: Holiday",
       studentsCount: "150+",
       features: [
         "Interactive smart boards",
