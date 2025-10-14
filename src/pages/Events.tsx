@@ -161,7 +161,7 @@ const Events = () => {
               Coming Up Next
             </Badge>
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              Upcoming Events & Workshops
+              Recent Events & Workshops
             </h2>
             <p className="text-xl text-muted-foreground">
               Don't miss these exciting learning opportunities
