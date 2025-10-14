@@ -22,7 +22,7 @@ const Branches = () => {
       slug: "govind-nagar",
       isPopular: true,
       description: "Our flagship branch with state-of-the-art facilities and comprehensive programs.",
-      established: "2020",
+      established: "2025",
       floorArea: "2500 sq ft",
       specialPrograms: ["Vedic Maths Championship Training", "Advanced Robotics Workshop"]
     },
@@ -41,7 +41,7 @@ const Branches = () => {
       ],
       slug: "manmad",
       description: "Conveniently located branch serving the Manmad community with excellence.",
-      established: "2022",
+      established: "2024",
       floorArea: "1800 sq ft",
       specialPrograms: ["Abacus Competition Prep", "Memory Training Workshop"]
     }
