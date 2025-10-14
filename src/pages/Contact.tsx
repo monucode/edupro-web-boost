@@ -74,7 +74,6 @@ Message: ${formData.message}
       incharge: "Mrs. Harshada Hiran",
       designation: "Branch Coordinator",
       specialties: ["Vedic Maths", "Robotics", "All Courses"],
-      isMain: true
     },
     {
       name: "Manmad Branch", 
@@ -84,7 +83,8 @@ Message: ${formData.message}
       timings: "Monday - Thursday: 9:00 AM - 7:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM | Friday: Holiday",
       incharge: "Mrs. Harshada Hiran",
       designation: "Branch Coordinator",
-      specialties: ["Abacus Training", "Mnemonic Science", "Phonics"]
+      specialties: ["Abacus Training", "Mnemonic Science", "Phonics"],
+      isMain: true
     }
   ];
 
