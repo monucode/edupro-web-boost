@@ -18,6 +18,15 @@ import regionalComp1 from "@/assets/events/regional-comp-1.jpeg";
 import regionalComp2 from "@/assets/events/regional-comp-2.jpeg";
 import regionalComp3 from "@/assets/events/regional-comp-3.jpeg";
 import regionalComp4 from "@/assets/events/regional-comp-4.jpeg";
+import classEvent1 from "@/assets/events/class-event-1.jpeg";
+import classEvent2 from "@/assets/events/class-event-2.jpeg";
+import classEvent3 from "@/assets/events/class-event-3.jpeg";
+import classEvent4 from "@/assets/events/class-event-4.jpeg";
+import classEvent5 from "@/assets/events/class-event-5.jpeg";
+import classEvent6 from "@/assets/events/class-event-6.jpeg";
+import classEvent7 from "@/assets/events/class-event-7.jpeg";
+import classEvent8 from "@/assets/events/class-event-8.jpeg";
+import classEvent9 from "@/assets/events/class-event-9.jpeg";
 
 const EventGallery = () => {
   const { eventId } = useParams();
