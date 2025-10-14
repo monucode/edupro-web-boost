@@ -158,7 +158,7 @@ const Events = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20">
-              Coming Up Next
+              Recent Updates
             </Badge>
             <h2 className="text-4xl font-bold text-foreground mb-4">
               Recent Events & Workshops
