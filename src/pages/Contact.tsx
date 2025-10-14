@@ -68,7 +68,7 @@ Message: ${formData.message}
     {
       name: "Govind Nagar Branch",
       address: "Plot No. 14, Rambagh Colony, Bhujbal Farm Road, Behind Runghta Bela Vista, Govind Nagar, Nashik, Maharashtra 401203",
-      phone: ["+91-8208368355", "+9174499055108"],
+      phone: "+91-8208368355",
       email: "govindnagar@hiraneduproacademy.com",
       timings: "Monday - Friday: 9:00 AM - 7:00 PM | Saturday - Sunday: 09:00 AM - 06:00 PM",
       incharge: "Mrs. Harshada Hiran",
@@ -78,7 +78,7 @@ Message: ${formData.message}
     {
       name: "Manmad Branch", 
       address: "First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104",
-      phone: ["+91-8208368355", "+9174499055108"],
+      phone: "+91-8208368355",
       email: "manmad@hiraneduproacademy.com",
       timings: "Monday - Thursday: 9:00 AM - 7:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM | Friday: Holiday",
       incharge: "Mrs. Harshada Hiran",
