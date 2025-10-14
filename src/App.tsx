@@ -24,6 +24,7 @@ import RoboticsPro from "./pages/courses/RoboticsPro";
 import AbacusTraining from "./pages/courses/AbacusTraining";
 import MnemonicScience from "./pages/courses/MnemonicScience";
 import PhonicsReading from "./pages/courses/PhonicsReading";
+import Handwriting from "./pages/courses/Handwriting";
 
 // Branch detail pages
 import GovindNagar from "./pages/branches/GovindNagar";
@@ -50,6 +51,7 @@ const App = () => (
                 <Route path="/courses/abacus-training" element={<AbacusTraining />} />
                 <Route path="/courses/mnemonic-science" element={<MnemonicScience />} />
                 <Route path="/courses/phonics-reading" element={<PhonicsReading />} />
+                <Route path="/courses/handwriting" element={<Handwriting />} />
                 <Route path="/branches" element={<Branches />} />
                 <Route path="/branches/govind-nagar" element={<GovindNagar />} />
                 <Route path="/branches/manmad" element={<Manmad />} />
