@@ -34,12 +34,12 @@ const Events = () => {
 
   const pastEvents = [
     {
-      id: "regional-abacus-2024",
-      title: "Regional Abacus Competition",
-      date: "November 2024",
-      description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills.",
-      images: 6,
-      participants: "60+ students",
+      id: "Class-event-2025",
+      title: "Class Event", 
+      date: "June 2025",
+      description: "Interactive sessions for enhancing mental math, concentration, and problem-solving skills with personalized guidance.",
+      images: 3,
+      participants: "50+ students",
       hasGallery: true
     },
     {
@@ -51,6 +51,15 @@ const Events = () => {
       participants: "100+ students",
       hasGallery: true
     },
+    {
+      id: "regional-abacus-2024",
+      title: "Regional Abacus Competition",
+      date: "November 2024",
+      description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills.",
+      images: 6,
+      participants: "60+ students",
+      hasGallery: true
+    },    
     {
       id: "parent-teacher-2024",
       title: "Parent-Teacher Conference", 
