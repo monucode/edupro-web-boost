@@ -38,7 +38,7 @@ const Events = () => {
       title: "Class Event", 
       date: "June 2025",
       description: "Interactive sessions for enhancing mental math, concentration, and problem-solving skills with personalized guidance.",
-      images: 3,
+      images: 9,
       participants: "50+ students",
       hasGallery: true
     },
@@ -47,7 +47,7 @@ const Events = () => {
       title: "National Competition Summer 2025",
       date: "June 2025",
       description: "National level competition showcasing talent from across the country in various academic disciplines.",
-      images: 0,
+      images: 9,
       participants: "100+ students",
       hasGallery: true
     },
@@ -56,7 +56,7 @@ const Events = () => {
       title: "Regional Abacus Competition",
       date: "November 2024",
       description: "Regional level abacus competition held with great success, showcasing exceptional calculation skills.",
-      images: 6,
+      images: 4,
       participants: "60+ students",
       hasGallery: true
     },    
