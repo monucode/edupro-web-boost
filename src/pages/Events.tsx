@@ -22,7 +22,7 @@ const Events = () => {
       title: "Regional Abacus Competition",
       date: "November 2024",
       time: "9:00 AM - 3:00 PM", 
-      venue: "Govind Nagar Branch",
+      venue: "Nashik",
       description: "Regional level abacus competition showcasing speed calculation and mental math skills.",
       category: "Competition",
       participants: "60+ students",
