@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Clock, Users, Star, CheckCircle, BookOpen, PenTool, Award, Target } from "lucide-react";
 import { Link } from "react-router-dom";
-import handwritingImg from "@/assets/handwriting.png";
+import handwritingImg from "@/assets/handwriting-course.png";
 
 const Handwriting = () => {
   const whatsappNumber = "+918208368355";
