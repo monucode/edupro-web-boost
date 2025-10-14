@@ -76,6 +76,25 @@ const EventGallery = () => {
         nationalComp9
       ]
     },
+    "class-event-2025": {
+      title: "Class Event 2025",
+      date: "June 2025",
+      venue: "Nashik",
+      participants: "100+ students",
+      description: "Interactive Abacus sessions for enhancing mental math, concentration, and problem-solving skills with personalized guidance.",
+      storageKey: "event-gallery-class-event",
+      defaultImages: [
+        classEvent1,
+        classEvent2,
+        classEvent3,
+        classEvent4,
+        classEvent5,
+        classEvent6,
+        classEvent7,
+        classEvent8,
+        classEvent9
+      ]
+    },
     "parent-teacher-2024": {
       title: "Parent-Teacher Conference",
       date: "January 2024",
