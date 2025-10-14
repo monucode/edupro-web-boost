@@ -19,7 +19,7 @@ const Courses = () => {
       description: "Master ancient calculation techniques that make mathematics fun, fast, and fascinating. Learn to solve complex problems mentally in seconds using time-tested Vedic methods.",
       image: vedicMathsImg,
       Grade: "Std. 5th+",
-      duration: "4 months",
+      duration: "4 months (5 Levels in total)",
       students: "200+",
       rating: "4.9",
       highlights: [
@@ -36,7 +36,7 @@ const Courses = () => {
       description: "Hands-on robotics and coding experience designed for future engineers. Build, program, and compete with cutting-edge robotics technology.",
       image: roboticsImg,
       Grade: "Std. 1st+",
-      duration: "4 months",
+      duration: "4 months (6 Levels in total)",
       students: "150+",
       rating: "4.8",
       highlights: [
@@ -53,7 +53,7 @@ const Courses = () => {
       description: "Traditional counting method enhanced with modern techniques for comprehensive brain development and mathematical excellence through visual and tactile learning.",
       image: abacusImg,
       Grade: "Jr.Kg - Std. 7th",
-      duration: "4 months",
+      duration: "4 months (8 Levels in total)",
       students: "300+",
       rating: "4.9",
       highlights: [
@@ -70,7 +70,7 @@ const Courses = () => {
       description: "Revolutionary memory techniques and learning strategies based on cognitive science. Transform how your child learns and remembers information.",
       image: mnemonicImg,
       Grade: "Std. 4th+",
-      duration: "6 months",
+      duration: "6 months (5 Levels in total)",
       students: "120+",
       rating: "4.7",
       highlights: [
@@ -87,7 +87,7 @@ const Courses = () => {
       description: "Comprehensive phonics program that builds strong reading foundations through systematic sound-symbol relationships and interactive learning methods.",
       image: phonicsImg,
       Grade: "UKG.+",
-      duration: "4 months",
+      duration: "4 months (3 Levels in total)",
       students: "250+",
       rating: "4.9",
       highlights: [
@@ -98,6 +98,24 @@ const Courses = () => {
         "Communication confidence"
       ],
       slug: "phonics-reading"
+    },
+    {
+      title: "Handwriting",
+      description:
+        "Enhance writing clarity, speed, and presentation with our comprehensive handwriting improvement program. This course focuses on both English and Marathi handwriting, ensuring legibility, neatness, and confidence in written communication. Structured up to 3 levels, it gradually builds precision and fluency through guided practice and personalized feedback.",
+      image: handwritingImg, 
+      Grade: "Kg.+",
+      duration: "4 months per level (3 Levels in total)",
+      students: "250+",
+      rating: "4.8",
+      highlights: [
+        "Covers English and Marathi handwriting improvement",
+        "Focus on letter formation and consistency",
+        "Enhances writing speed and presentation",
+        "Personalized evaluation and feedback",
+        "Improves fine motor and cognitive skills",
+      ],
+      slug: "handwriting",
     }
   ];
 
