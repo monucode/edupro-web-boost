@@ -110,9 +110,9 @@ const Courses = () => {
       students: "250+",
       rating: "4.8",
       highlights: [
-        "Covers English and Marathi handwriting improvement",
-        "Focus on letter formation and consistency",
-        "Improves fine motor and cognitive skills",
+        "English & Marathi handwriting",
+        "Improves letter formation",
+        "Boosts writing speed & clarity",
       ],
       slug: "handwriting",
     }
