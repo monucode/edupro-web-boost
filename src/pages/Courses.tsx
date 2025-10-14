@@ -112,8 +112,6 @@ const Courses = () => {
       highlights: [
         "Covers English and Marathi handwriting improvement",
         "Focus on letter formation and consistency",
-        "Enhances writing speed and presentation",
-        "Personalized evaluation and feedback",
         "Improves fine motor and cognitive skills",
       ],
       slug: "handwriting",
