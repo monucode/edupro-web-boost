@@ -20,7 +20,7 @@ const Branches = () => {
         "Parent waiting room"
       ],
       slug: "govind-nagar",
-      status: "Opening soon",
+      isPopular: true,
       description: "Our flagship branch with state-of-the-art facilities and comprehensive programs.",
       established: "2025",
       floorArea: "2500 sq ft",
