@@ -19,7 +19,7 @@ const Footer = () => {
                 className="h-12 w-12 object-contain"
               />
               <div>
-                <h3 className="font-bold text-primary text-lg">Hiran EduPro Academy</h3>
+                <h3 className="font-bold text-primary text-lg">Hiran EduPro Academyy</h3>
                 <p className="text-sm text-muted-foreground">Learning Beyond Limits</p>
               </div>
             </div>
@@ -162,7 +162,7 @@ const Footer = () => {
         <div className="border-t border-border/50 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-muted-foreground text-center md:text-left">
-              <p>© {currentYear} Hiran EduPro Academy. All rights reserved.</p>
+              <p>© {currentYear} Hiran EduPro Academyy. All rights reserved.</p>
               <p className="mt-1">
                 Designed & Developed by{" "}
                 <a 
