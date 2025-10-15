@@ -39,7 +39,7 @@ const About = () => {
 
   const faculty = [
     {
-      name: "Mrs. Harshada Hiran",
+      name: "Mrs. Harshadaa Hiran",
       role: "Founder & Principal",
       qualification: "",
       experience: "7+ years in education",
@@ -69,13 +69,13 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Badge className="mb-6 bg-primary/10 text-primary hover:bg-primary/20">
-                About Hiran EduPro Academy
+                About Hiran EduPro Academyy
               </Badge>
               <h1 className="text-5xl font-bold text-foreground mb-6 leading-tight">
                 Learning Beyond Limits
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Founded in 2020, Hiran EduPro Academy has been at the forefront of innovative 
+                Founded in 2020, Hiran EduPro Academyy has been at the forefront of innovative 
                 education, combining time-tested traditional methods with cutting-edge modern 
                 techniques to unlock every child's potential.
               </p>
@@ -102,7 +102,7 @@ const About = () => {
             <div className="relative">
               <img
                 src={facultyImage}
-                alt="Hiran EduPro Academy Faculty Team"
+                alt="Hiran EduPro Academyy Faculty Team"
                 className="rounded-2xl shadow-primary w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-white rounded-xl p-4 shadow-card">
