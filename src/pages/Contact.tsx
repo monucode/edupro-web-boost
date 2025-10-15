@@ -36,7 +36,7 @@ const Contact = () => {
     // WhatsApp integration
     const whatsappNumber = "+918208368355";
     const message = `
-Contact Form Submission - Hiran EduPro Academy
+Contact Form Submission - Hiran EduPro Academyy
 
 Name: ${formData.name}
 Email: ${formData.email}
@@ -71,7 +71,7 @@ Message: ${formData.message}
       phone: "+91-8208368355",
       email: "govindnagar@hiraneduproacademy.com",
       timings: "Monday - Friday: 9:00 AM - 7:00 PM | Saturday - Sunday: 09:00 AM - 06:00 PM",
-      incharge: "Mrs. Harshada Hiran",
+      incharge: "Mrs. Harshadaa Hiran",
       designation: "Branch Coordinator",
       specialties: ["Vedic Maths", "Robotics", "All Courses"],
     },
@@ -81,7 +81,7 @@ Message: ${formData.message}
       phone: "+91-8208368355",
       email: "manmad@hiraneduproacademy.com",
       timings: "Monday - Thursday: 9:00 AM - 7:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM | Friday: Holiday",
-      incharge: "Mrs. Harshada Hiran",
+      incharge: "Mrs. Harshadaa Hiran",
       designation: "Branch Coordinator",
       specialties: ["Abacus Training", "Mnemonic Science", "Phonics"],
       isMain: true
@@ -125,7 +125,7 @@ Message: ${formData.message}
               </a>
               
               <a
-                href="https://wa.me/+918208368355?text=Hi! I have a question about Hiran EduPro Academy."
+                href="https://wa.me/+918208368355?text=Hi! I have a question about Hiran EduPro Academyy."
                 target="_blank"
                 rel="noopener noreferrer"
               >
