@@ -40,7 +40,7 @@ const Admissions = () => {
     // WhatsApp integration
     const whatsappNumber = "+918208368355";
     const message = `
-New Admission Inquiry - Hiran EduPro Academy
+New Admission Inquiry - Hiran EduPro Academyy
 
 Student Name: ${formData.studentName}
 Parent Name: ${formData.parentName}
