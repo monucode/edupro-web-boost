@@ -7,7 +7,7 @@ import handwritingImg from "@/assets/handwriting-course.png";
 
 const Handwriting = () => {
   const whatsappNumber = "+918208368355";
-  const whatsappMessage = "Hi! I'd like to know more about the Handwriting course at Hiran EduPro Academy.";
+  const whatsappMessage = "Hi! I'd like to know more about the Handwriting course at Hiran EduPro Academyy.";
 
   return (
     <main className="pt-16">
