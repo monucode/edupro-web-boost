@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
                 <div className="space-y-2">
                   <p><strong>Email:</strong> privacy@hiranedupro.com</p>
                   <p><strong>Phone:</strong> +918208368355 </p>
-                  <p><strong>Address:</strong> 123 Education Street, Govind Nagar</p>
+                  <p><strong>Address:</strong> First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104</p>
                 </div>
               </div>
             </section>
