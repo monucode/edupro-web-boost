@@ -21,7 +21,7 @@ const Home = () => {
       description: "Ancient calculation techniques that make math fun and fast. Students learn to solve complex problems mentally in seconds.",
       image: vedicMathsImg,
       Grade: "Std.7th+",
-      duration: "4 months",
+      duration: "4 months(up to Level 5)",
       students: "200+",
       rating: "4.9",
       highlights: [
@@ -36,7 +36,7 @@ const Home = () => {
       description: "Hands-on robotics and coding experience for future engineers. Learn programming, electronics, and problem-solving.",
       image: roboticsImg,
       Grade: "Std.1st+",
-      duration: "4 months",
+      duration: "4 months(up to Level 6)",
       students: "150+",
       rating: "4.8",
       highlights: [
@@ -51,7 +51,7 @@ const Home = () => {
       description: "Traditional counting method for enhanced brain development and mathematical skills through visual and tactile learning.",
       image: abacusImg,
       Grade: "Jr.Kg.- Std.7th",
-      duration: "4 months",
+      duration: "4 months (up to Level 8)",
       students: "300+",
       rating: "4.9",
       highlights: [
