@@ -148,7 +148,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-foreground mb-4">
-              Why Parents Choose Hiran EduPro Academy
+              Why Parents Choose Hiran EduPro Academyy
             </h2>
             <p className="text-xl text-muted-foreground">
               Excellence in education with proven results
