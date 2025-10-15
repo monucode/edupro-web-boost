@@ -22,7 +22,7 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const whatsappNumber = "+918208368355";
-  const whatsappMessage = "Hi! I'm interested in courses at Hiran EduPro Academy. Please provide more information.";
+  const whatsappMessage = "Hi! I'm interested in courses at Hiran EduPro Academyy. Please provide more information.";
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
