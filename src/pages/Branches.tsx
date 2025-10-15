@@ -233,7 +233,7 @@ const Branches = () => {
               Consistent Excellence Across All Branches
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Every Hiran EduPro Academy branch maintains the same high standards and quality of education
+              Every Hiran EduPro Academyy branch maintains the same high standards and quality of education
             </p>
           </div>
 
