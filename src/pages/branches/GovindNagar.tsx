@@ -12,11 +12,11 @@ const GovindNagar = () => {
     phone: "+91-8208368355",
     email: "govindnagar@hiraneduproacademy.com",
     timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
-    established: "2020",
+    established: "2024",
     studentsCount: "200+",
     floorArea: "2500 sq ft",
-    incharge: "Mrs. Priya Sharma",
-    designation: "Branch Manager"
+    incharge: "Mrs. Harshadaa Hiran",
+    designation: "Branch Coordinator"
   };
 
   const features = [
