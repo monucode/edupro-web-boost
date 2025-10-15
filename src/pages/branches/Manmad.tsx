@@ -12,10 +12,10 @@ const Manmad = () => {
     phone: "+91-8208368355",
     email: "manmad@hiraneduproacademy.com",
     timings: "Monday - Friday: 8:45 AM - 2:00 PM | Saturday - Sunday: 10:00 AM - 3:00 PM",
-    established: "2022",
+    established: "2025",
     studentsCount: "150+",
     floorArea: "1800 sq ft",
-    incharge: "Mr. Rajesh Patel",
+    incharge: "Mrs. Harshadaa Hiran",
     designation: "Branch Coordinator"
   };
 
