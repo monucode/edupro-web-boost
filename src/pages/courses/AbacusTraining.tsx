@@ -7,7 +7,7 @@ import abacusImg from "@/assets/abacus-training.jpg";
 
 const AbacusTraining = () => {
   const whatsappNumber = "+918208368355";
-  const whatsappMessage = "Hi! I'd like to know more about the Abacus Training course at Hiran EduPro Academy.";
+  const whatsappMessage = "Hi! I'd like to know more about the Abacus Training course at Hiran EduPro Academyy.";
 
   return (
     <main className="pt-16">
@@ -66,7 +66,7 @@ const AbacusTraining = () => {
             <div className="relative">
               <img
                 src={abacusImg}
-                alt="Abacus Training course at Hiran EduPro Academy"
+                alt="Abacus Training course at Hiran EduPro Academyy"
                 className="w-full h-96 object-cover rounded-2xl shadow-elegant"
               />
             </div>
