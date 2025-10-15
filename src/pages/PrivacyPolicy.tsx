@@ -4,8 +4,8 @@ const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <Helmet>
-        <title>Privacy Policy - Hiran EduPro Academy</title>
-        <meta name="description" content="Privacy Policy for Hiran EduPro Academy. Learn how we collect, use, and protect your personal information." />
+        <title>Privacy Policy - Hiran EduPro Academyy</title>
+        <meta name="description" content="Privacy Policy for Hiran EduPro Academyy. Learn how we collect, use, and protect your personal information." />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -123,7 +123,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <div className="space-y-2">
                   <p><strong>Email:</strong> privacy@hiranedupro.com</p>
-                  <p><strong>Phone:</strong> +91 99999 99999</p>
+                  <p><strong>Phone:</strong> +918208368355 </p>
                   <p><strong>Address:</strong> 123 Education Street, Govind Nagar</p>
                 </div>
               </div>
