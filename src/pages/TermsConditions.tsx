@@ -4,8 +4,8 @@ const TermsConditions = () => {
   return (
     <div className="min-h-screen bg-gradient-subtle">
       <Helmet>
-        <title>Terms & Conditions - Hiran EduPro Academy</title>
-        <meta name="description" content="Terms and Conditions for Hiran EduPro Academy. Read our terms of service and enrollment policies." />
+        <title>Terms & Conditions - Hiran EduPro Academyy</title>
+        <meta name="description" content="Terms and Conditions for Hiran EduPro Academyy. Read our terms of service and enrollment policies." />
         <meta name="robots" content="index, follow" />
       </Helmet>
 
@@ -26,7 +26,7 @@ const TermsConditions = () => {
               <h2 className="text-2xl font-semibold text-primary mb-4">Acceptance of Terms</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  By enrolling in courses at Hiran EduPro Academy or using our services, you agree to be 
+                  By enrolling in courses at Hiran EduPro Academyy or using our services, you agree to be 
                   bound by these Terms and Conditions. If you do not agree with any part of these terms, 
                   you may not enroll in our courses or use our services.
                 </p>
@@ -119,7 +119,7 @@ const TermsConditions = () => {
               <h2 className="text-2xl font-semibold text-primary mb-4">Limitation of Liability</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Hiran EduPro Academy strives to provide quality education but cannot guarantee specific 
+                  Hiran EduPro Academyy strives to provide quality education but cannot guarantee specific 
                   learning outcomes. The academy is not liable for:
                 </p>
                 <ul className="list-disc list-inside space-y-2">
@@ -168,8 +168,8 @@ const TermsConditions = () => {
                 </p>
                 <div className="space-y-2">
                   <p><strong>Email:</strong> info@hiranedupro.com</p>
-                  <p><strong>Phone:</strong> +91 99999 99999</p>
-                  <p><strong>Address:</strong> 123 Education Street, Govind Nagar</p>
+                  <p><strong>Phone:</strong> +918208368355</p>
+                  <p><strong>Address:</strong> First floor Hemsuraj kirana, Near Sundar Selection Aajad Road, Manmad, Maharashtra 423104</p>
                 </div>
               </div>
             </section>
